@@ -1,0 +1,9 @@
+S2 CHIS foreign-born only + % life in US: n = 11439 (Spanish 5134), converged = TRUE 
+Key: <lhs>
+      lhs    est    se se_lavaan        p OR_eq
+   <char>  <num> <num>     <num>    <num> <num>
+1:     AB -0.147 0.037     0.046 8.96e-05  0.78
+2:     HD -0.375 0.056     0.068 2.26e-11  0.53
+3:  drugs -0.005 0.112     0.133 9.67e-01  0.99
+4:   jail  0.002 0.129     0.144 9.90e-01  1.00
+5:     mh -0.217 0.072     0.090 2.77e-03  0.69

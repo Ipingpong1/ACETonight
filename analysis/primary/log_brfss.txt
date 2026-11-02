@@ -1,0 +1,4 @@
+brfss: full-sample fit converged = TRUE (23 s) 
+fit indices: chisq.scaled=1124.0235; df.scaled=226; pvalue.scaled=0; cfi.scaled=0.9464; tli.scaled=0.9934; rmsea.scaled=0.0106; cfi.robust=NA; tli.robust=NA; rmsea.robust=NA; srmr=0.0504 
+replicates: 100/100 converged (3 min); Rao-Wu rescaled bootstrap (subbootstrap), 100 replicates, MSE 
+done brfss 

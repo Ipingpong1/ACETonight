@@ -1,0 +1,2626 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Supplement to: Does interview language change how Hispanic adults report childhood household adversity?</title><style>
+@page { size: A4; margin: 18mm 17mm; }
+html { font-size: 10.5pt; }
+body { font-family: Georgia, "Times New Roman", serif; line-height: 1.42; color: #111; max-width: 180mm; margin: 0 auto; padding: 0 4mm; }
+h1 { font-size: 1.55em; line-height: 1.25; margin: 0 0 .4em; }
+h2 { font-size: 1.25em; margin: 1.6em 0 .5em; border-bottom: 1px solid #bbb; padding-bottom: .15em; }
+h3 { font-size: 1.05em; margin: 1.3em 0 .4em; }
+p { margin: .45em 0 .7em; text-align: justify; }
+li { margin: .2em 0; }
+.box { border: 1px solid #8a8a8a; background: #f4f4f2; padding: .6em 1em; margin: 1em 0; page-break-inside: avoid; }
+.box p { text-align: left; }
+table { border-collapse: collapse; font-size: .8em; margin: .8em 0 1em; width: 100%; page-break-inside: auto; }
+th, td { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: .25em .45em; vertical-align: top; }
+th { background: #eee; text-align: left; }
+tr { page-break-inside: avoid; }
+img { max-width: 100%; display: block; margin: 1em auto .4em; page-break-inside: avoid; }
+img + p { font-size: .9em; }
+sup { font-size: .7em; }
+code { font-family: Menlo, Consolas, monospace; font-size: .85em; }
+blockquote { margin: .6em 1.2em; color: #333; }
+ol li { margin: .3em 0; }
+em.note { color: #555; }
+p.eq { text-align: center; margin: .8em 0; font-size: 1.02em; }
+a { color: #1a4a8a; text-decoration: none; }
+</style></head><body><main><h1>Supplement to: Does interview language change how Hispanic adults report childhood household adversity?</h1>
+<p><em>Preprint version 0.1, 2 November 2026. All tables are generated from the files in <code>analysis/</code> and <code>exploratory/</code> of the repository; the source file is named under each table.</em></p>
+<p><strong>Contents</strong></p>
+<ul>
+<li>S1. Full sample characteristics</li>
+<li>S2. Item prevalence with design-based CIs and prevalence ratios</li>
+<li>S3. Model fit</li>
+<li>S4. Multigroup CFA by interview language (S3 in the plan)</li>
+<li>S5. Anchor sensitivity and alignment (S4 in the plan)</li>
+<li>S6. Impact, mode and 11-item models (S5–S7 in the plan); deviations from the frozen plan</li>
+<li>S7. Exploratory analyses (not pre-specified)</li>
+<li>S8. Literature search summary</li>
+</ul>
+<h2>S1. Full sample characteristics</h2>
+<p>Source: <code>analysis/table1.md</code>. n = unweighted; % = weighted column percentage (BRFSS final weight ÷ 7; CHIS RAKEDW0 ÷ 5). Models use the native age groups (BRFSS _AGEG5YR 1–13 plus DK/refused; CHIS SRAGE_P1 14 groups); the groups below are collapsed for display.</p>
+<p><strong>BRFSS 2019–2025</strong> (English n = 24,473; Spanish n = 10,945)</p>
+<table>
+<thead>
+<tr>
+<th>Characteristic</th>
+<th style="text-align: right;">English n</th>
+<th style="text-align: right;">English %</th>
+<th style="text-align: right;">Spanish n</th>
+<th style="text-align: right;">Spanish %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Age</em> 18–24</td>
+<td style="text-align: right;">4,175</td>
+<td style="text-align: right;">21.7</td>
+<td style="text-align: right;">747</td>
+<td style="text-align: right;">8.5</td>
+</tr>
+<tr>
+<td>25–34</td>
+<td style="text-align: right;">5,186</td>
+<td style="text-align: right;">22.9</td>
+<td style="text-align: right;">2,126</td>
+<td style="text-align: right;">19.0</td>
+</tr>
+<tr>
+<td>35–44</td>
+<td style="text-align: right;">4,536</td>
+<td style="text-align: right;">18.9</td>
+<td style="text-align: right;">2,687</td>
+<td style="text-align: right;">23.6</td>
+</tr>
+<tr>
+<td>45–54</td>
+<td style="text-align: right;">3,731</td>
+<td style="text-align: right;">13.9</td>
+<td style="text-align: right;">2,154</td>
+<td style="text-align: right;">18.3</td>
+</tr>
+<tr>
+<td>55–64</td>
+<td style="text-align: right;">3,202</td>
+<td style="text-align: right;">12.3</td>
+<td style="text-align: right;">1,565</td>
+<td style="text-align: right;">15.0</td>
+</tr>
+<tr>
+<td>65+</td>
+<td style="text-align: right;">3,450</td>
+<td style="text-align: right;">9.6</td>
+<td style="text-align: right;">1,625</td>
+<td style="text-align: right;">15.4</td>
+</tr>
+<tr>
+<td>Don't know/refused</td>
+<td style="text-align: right;">193</td>
+<td style="text-align: right;">0.8</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">0.3</td>
+</tr>
+<tr>
+<td><em>Sex</em> Male</td>
+<td style="text-align: right;">11,873</td>
+<td style="text-align: right;">50.7</td>
+<td style="text-align: right;">4,880</td>
+<td style="text-align: right;">44.5</td>
+</tr>
+<tr>
+<td>Female</td>
+<td style="text-align: right;">12,600</td>
+<td style="text-align: right;">49.3</td>
+<td style="text-align: right;">6,065</td>
+<td style="text-align: right;">55.5</td>
+</tr>
+<tr>
+<td><em>Education</em> Never attended/kindergarten</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">0.2</td>
+<td style="text-align: right;">307</td>
+<td style="text-align: right;">2.4</td>
+</tr>
+<tr>
+<td>Grades 1–8</td>
+<td style="text-align: right;">571</td>
+<td style="text-align: right;">3.4</td>
+<td style="text-align: right;">3,665</td>
+<td style="text-align: right;">36.3</td>
+</tr>
+<tr>
+<td>Grades 9–11</td>
+<td style="text-align: right;">1,468</td>
+<td style="text-align: right;">8.9</td>
+<td style="text-align: right;">1,899</td>
+<td style="text-align: right;">21.8</td>
+</tr>
+<tr>
+<td>Grade 12/GED</td>
+<td style="text-align: right;">7,425</td>
+<td style="text-align: right;">29.9</td>
+<td style="text-align: right;">2,856</td>
+<td style="text-align: right;">23.4</td>
+</tr>
+<tr>
+<td>College 1–3 years</td>
+<td style="text-align: right;">7,218</td>
+<td style="text-align: right;">33.1</td>
+<td style="text-align: right;">948</td>
+<td style="text-align: right;">8.6</td>
+</tr>
+<tr>
+<td>College 4+ years</td>
+<td style="text-align: right;">7,692</td>
+<td style="text-align: right;">24.1</td>
+<td style="text-align: right;">1,149</td>
+<td style="text-align: right;">6.7</td>
+</tr>
+<tr>
+<td>Refused</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">0.3</td>
+<td style="text-align: right;">121</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr>
+<td><em>Household income</em> &lt;$15,000</td>
+<td style="text-align: right;">1,644</td>
+<td style="text-align: right;">6.8</td>
+<td style="text-align: right;">2,115</td>
+<td style="text-align: right;">22.2</td>
+</tr>
+<tr>
+<td>$15,000–24,999</td>
+<td style="text-align: right;">2,934</td>
+<td style="text-align: right;">11.5</td>
+<td style="text-align: right;">2,920</td>
+<td style="text-align: right;">25.4</td>
+</tr>
+<tr>
+<td>$25,000–34,999</td>
+<td style="text-align: right;">2,664</td>
+<td style="text-align: right;">10.7</td>
+<td style="text-align: right;">1,694</td>
+<td style="text-align: right;">14.2</td>
+</tr>
+<tr>
+<td>$35,000–49,999</td>
+<td style="text-align: right;">3,277</td>
+<td style="text-align: right;">12.6</td>
+<td style="text-align: right;">1,052</td>
+<td style="text-align: right;">9.6</td>
+</tr>
+<tr>
+<td>$50,000+</td>
+<td style="text-align: right;">10,463</td>
+<td style="text-align: right;">44.2</td>
+<td style="text-align: right;">625</td>
+<td style="text-align: right;">6.2</td>
+</tr>
+<tr>
+<td>Missing/DK/refused</td>
+<td style="text-align: right;">3,491</td>
+<td style="text-align: right;">14.2</td>
+<td style="text-align: right;">2,539</td>
+<td style="text-align: right;">22.4</td>
+</tr>
+<tr>
+<td><em>Survey year</em> 2019</td>
+<td style="text-align: right;">4,371</td>
+<td style="text-align: right;">14.0</td>
+<td style="text-align: right;">1,726</td>
+<td style="text-align: right;">11.9</td>
+</tr>
+<tr>
+<td>2020</td>
+<td style="text-align: right;">7,607</td>
+<td style="text-align: right;">36.2</td>
+<td style="text-align: right;">2,995</td>
+<td style="text-align: right;">40.6</td>
+</tr>
+<tr>
+<td>2021</td>
+<td style="text-align: right;">2,675</td>
+<td style="text-align: right;">9.3</td>
+<td style="text-align: right;">1,124</td>
+<td style="text-align: right;">7.9</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">2,581</td>
+<td style="text-align: right;">10.9</td>
+<td style="text-align: right;">1,214</td>
+<td style="text-align: right;">9.7</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">2,638</td>
+<td style="text-align: right;">10.9</td>
+<td style="text-align: right;">1,641</td>
+<td style="text-align: right;">11.7</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">2,634</td>
+<td style="text-align: right;">11.3</td>
+<td style="text-align: right;">883</td>
+<td style="text-align: right;">9.1</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">1,967</td>
+<td style="text-align: right;">7.4</td>
+<td style="text-align: right;">1,362</td>
+<td style="text-align: right;">9.1</td>
+</tr>
+<tr>
+<td><em>Census region</em> Northeast</td>
+<td style="text-align: right;">3,498</td>
+<td style="text-align: right;">18.0</td>
+<td style="text-align: right;">2,056</td>
+<td style="text-align: right;">19.7</td>
+</tr>
+<tr>
+<td>Midwest</td>
+<td style="text-align: right;">5,038</td>
+<td style="text-align: right;">12.0</td>
+<td style="text-align: right;">2,368</td>
+<td style="text-align: right;">6.8</td>
+</tr>
+<tr>
+<td>South</td>
+<td style="text-align: right;">8,638</td>
+<td style="text-align: right;">42.8</td>
+<td style="text-align: right;">4,441</td>
+<td style="text-align: right;">43.1</td>
+</tr>
+<tr>
+<td>West</td>
+<td style="text-align: right;">7,299</td>
+<td style="text-align: right;">27.2</td>
+<td style="text-align: right;">2,080</td>
+<td style="text-align: right;">30.5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>CHIS 2021–2025</strong> (English n = 24,418; Spanish n = 5,536)</p>
+<table>
+<thead>
+<tr>
+<th>Characteristic</th>
+<th style="text-align: right;">English n</th>
+<th style="text-align: right;">English %</th>
+<th style="text-align: right;">Spanish n</th>
+<th style="text-align: right;">Spanish %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Age</em> 18–25</td>
+<td style="text-align: right;">2,755</td>
+<td style="text-align: right;">25.4</td>
+<td style="text-align: right;">189</td>
+<td style="text-align: right;">5.9</td>
+</tr>
+<tr>
+<td>26–34</td>
+<td style="text-align: right;">3,778</td>
+<td style="text-align: right;">20.0</td>
+<td style="text-align: right;">449</td>
+<td style="text-align: right;">9.4</td>
+</tr>
+<tr>
+<td>35–44</td>
+<td style="text-align: right;">4,476</td>
+<td style="text-align: right;">17.6</td>
+<td style="text-align: right;">1,029</td>
+<td style="text-align: right;">22.9</td>
+</tr>
+<tr>
+<td>45–54</td>
+<td style="text-align: right;">4,247</td>
+<td style="text-align: right;">14.3</td>
+<td style="text-align: right;">1,388</td>
+<td style="text-align: right;">24.9</td>
+</tr>
+<tr>
+<td>55–64</td>
+<td style="text-align: right;">4,321</td>
+<td style="text-align: right;">11.8</td>
+<td style="text-align: right;">1,347</td>
+<td style="text-align: right;">20.4</td>
+</tr>
+<tr>
+<td>65+</td>
+<td style="text-align: right;">4,841</td>
+<td style="text-align: right;">10.9</td>
+<td style="text-align: right;">1,134</td>
+<td style="text-align: right;">16.5</td>
+</tr>
+<tr>
+<td><em>Sex</em> Male</td>
+<td style="text-align: right;">9,789</td>
+<td style="text-align: right;">49.7</td>
+<td style="text-align: right;">2,190</td>
+<td style="text-align: right;">47.1</td>
+</tr>
+<tr>
+<td>Female</td>
+<td style="text-align: right;">14,629</td>
+<td style="text-align: right;">50.3</td>
+<td style="text-align: right;">3,346</td>
+<td style="text-align: right;">52.9</td>
+</tr>
+<tr>
+<td><em>Education</em> No formal education or grades 1–8</td>
+<td style="text-align: right;">660</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">1,428</td>
+<td style="text-align: right;">39.9</td>
+</tr>
+<tr>
+<td>Grades 9–11</td>
+<td style="text-align: right;">777</td>
+<td style="text-align: right;">8.7</td>
+<td style="text-align: right;">741</td>
+<td style="text-align: right;">22.7</td>
+</tr>
+<tr>
+<td>Grade 12/high school diploma</td>
+<td style="text-align: right;">4,263</td>
+<td style="text-align: right;">31.4</td>
+<td style="text-align: right;">1,386</td>
+<td style="text-align: right;">23.8</td>
+</tr>
+<tr>
+<td>Some college</td>
+<td style="text-align: right;">4,515</td>
+<td style="text-align: right;">13.7</td>
+<td style="text-align: right;">555</td>
+<td style="text-align: right;">4.5</td>
+</tr>
+<tr>
+<td>Vocational school</td>
+<td style="text-align: right;">2,006</td>
+<td style="text-align: right;">4.7</td>
+<td style="text-align: right;">404</td>
+<td style="text-align: right;">2.3</td>
+</tr>
+<tr>
+<td>AA/AS degree</td>
+<td style="text-align: right;">2,205</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">121</td>
+<td style="text-align: right;">0.8</td>
+</tr>
+<tr>
+<td>BA/BS degree or some graduate school</td>
+<td style="text-align: right;">6,137</td>
+<td style="text-align: right;">18.7</td>
+<td style="text-align: right;">692</td>
+<td style="text-align: right;">4.7</td>
+</tr>
+<tr>
+<td>MA/MS degree</td>
+<td style="text-align: right;">2,923</td>
+<td style="text-align: right;">7.6</td>
+<td style="text-align: right;">142</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr>
+<td>PhD or equivalent</td>
+<td style="text-align: right;">932</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">0.4</td>
+</tr>
+<tr>
+<td><em>Poverty level</em> 0–99% FPL</td>
+<td style="text-align: right;">3,659</td>
+<td style="text-align: right;">18.5</td>
+<td style="text-align: right;">1,848</td>
+<td style="text-align: right;">35.0</td>
+</tr>
+<tr>
+<td>100–199% FPL</td>
+<td style="text-align: right;">4,305</td>
+<td style="text-align: right;">20.4</td>
+<td style="text-align: right;">1,833</td>
+<td style="text-align: right;">32.7</td>
+</tr>
+<tr>
+<td>200–299% FPL</td>
+<td style="text-align: right;">3,509</td>
+<td style="text-align: right;">15.4</td>
+<td style="text-align: right;">845</td>
+<td style="text-align: right;">15.2</td>
+</tr>
+<tr>
+<td>300%+ FPL</td>
+<td style="text-align: right;">12,945</td>
+<td style="text-align: right;">45.7</td>
+<td style="text-align: right;">1,010</td>
+<td style="text-align: right;">17.1</td>
+</tr>
+<tr>
+<td><em>Survey year</em> 2021</td>
+<td style="text-align: right;">4,921</td>
+<td style="text-align: right;">20.2</td>
+<td style="text-align: right;">1,105</td>
+<td style="text-align: right;">20.3</td>
+</tr>
+<tr>
+<td>2022</td>
+<td style="text-align: right;">4,581</td>
+<td style="text-align: right;">20.5</td>
+<td style="text-align: right;">1,136</td>
+<td style="text-align: right;">19.7</td>
+</tr>
+<tr>
+<td>2023</td>
+<td style="text-align: right;">4,934</td>
+<td style="text-align: right;">20.8</td>
+<td style="text-align: right;">1,064</td>
+<td style="text-align: right;">19.3</td>
+</tr>
+<tr>
+<td>2024</td>
+<td style="text-align: right;">5,482</td>
+<td style="text-align: right;">19.2</td>
+<td style="text-align: right;">1,324</td>
+<td style="text-align: right;">19.9</td>
+</tr>
+<tr>
+<td>2025</td>
+<td style="text-align: right;">4,500</td>
+<td style="text-align: right;">19.3</td>
+<td style="text-align: right;">907</td>
+<td style="text-align: right;">20.8</td>
+</tr>
+<tr>
+<td><em>Nativity</em> Born in US</td>
+<td style="text-align: right;">18,113</td>
+<td style="text-align: right;">72.3</td>
+<td style="text-align: right;">402</td>
+<td style="text-align: right;">7.8</td>
+</tr>
+<tr>
+<td>Born outside US</td>
+<td style="text-align: right;">6,305</td>
+<td style="text-align: right;">27.7</td>
+<td style="text-align: right;">5,134</td>
+<td style="text-align: right;">92.2</td>
+</tr>
+<tr>
+<td><em>Percent of life in US</em> 0–20%</td>
+<td style="text-align: right;">230</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: right;">606</td>
+<td style="text-align: right;">10.3</td>
+</tr>
+<tr>
+<td>21–40%</td>
+<td style="text-align: right;">494</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: right;">964</td>
+<td style="text-align: right;">15.4</td>
+</tr>
+<tr>
+<td>41–60%</td>
+<td style="text-align: right;">1,094</td>
+<td style="text-align: right;">5.8</td>
+<td style="text-align: right;">1,959</td>
+<td style="text-align: right;">36.6</td>
+</tr>
+<tr>
+<td>61–80%</td>
+<td style="text-align: right;">2,040</td>
+<td style="text-align: right;">10.1</td>
+<td style="text-align: right;">1,457</td>
+<td style="text-align: right;">27.4</td>
+</tr>
+<tr>
+<td>81–100% (incl. all US-born)</td>
+<td style="text-align: right;">20,560</td>
+<td style="text-align: right;">80.7</td>
+<td style="text-align: right;">550</td>
+<td style="text-align: right;">10.3</td>
+</tr>
+<tr>
+<td><em>Interview mode</em> Phone (interviewer)</td>
+<td style="text-align: right;">3,104</td>
+<td style="text-align: right;">13.3</td>
+<td style="text-align: right;">1,844</td>
+<td style="text-align: right;">34.1</td>
+</tr>
+<tr>
+<td>Web (self-administered)</td>
+<td style="text-align: right;">21,314</td>
+<td style="text-align: right;">86.7</td>
+<td style="text-align: right;">3,692</td>
+<td style="text-align: right;">65.9</td>
+</tr>
+<tr>
+<td><em>English proficiency</em> Speaks only English</td>
+<td style="text-align: right;">9,669</td>
+<td style="text-align: right;">32.4</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">0.5</td>
+</tr>
+<tr>
+<td>Very well/well</td>
+<td style="text-align: right;">14,070</td>
+<td style="text-align: right;">62.3</td>
+<td style="text-align: right;">2,640</td>
+<td style="text-align: right;">40.1</td>
+</tr>
+<tr>
+<td>Not well/not at all</td>
+<td style="text-align: right;">679</td>
+<td style="text-align: right;">5.4</td>
+<td style="text-align: right;">2,867</td>
+<td style="text-align: right;">59.4</td>
+</tr>
+</tbody>
+</table>
+<h2>S2. Item prevalence with design-based CIs and prevalence ratios</h2>
+<p>Source: <code>analysis/table2.md</code>. Prevalence CIs: logit-transformed design-based intervals. PR = Spanish vs English prevalence ratio from a survey-weighted Poisson working model, Wald 95% CI. Adjusted: BRFSS age group, sex, education, income (missing as category), survey year, Census region; CHIS age group, sex, education, poverty level, survey year.</p>
+<p><strong>BRFSS 2019–2025</strong> (Taylor linearization; strata = year × file × _STSTR, PSU = _PSU, lonely PSU = adjust)</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>English % (95% CI)</th>
+<th>Spanish % (95% CI)</th>
+<th>Crude PR (95% CI)</th>
+<th>Adjusted PR (95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Household mental illness</td>
+<td>21.9 (20.8, 23.0)</td>
+<td>4.0 (3.3, 4.9)</td>
+<td>0.18 (0.15, 0.23)</td>
+<td>0.24 (0.19, 0.31)</td>
+</tr>
+<tr>
+<td>Household problem drinking</td>
+<td>25.3 (24.2, 26.5)</td>
+<td>16.8 (15.3, 18.4)</td>
+<td>0.67 (0.60, 0.74)</td>
+<td>0.68 (0.60, 0.77)</td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td>14.2 (13.3, 15.2)</td>
+<td>3.1 (2.6, 3.7)</td>
+<td>0.22 (0.18, 0.26)</td>
+<td>0.21 (0.17, 0.26)</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td>14.0 (13.0, 15.0)</td>
+<td>2.6 (2.1, 3.3)</td>
+<td>0.19 (0.15, 0.24)</td>
+<td>0.20 (0.16, 0.26)</td>
+</tr>
+<tr>
+<td>Parental separation/divorce</td>
+<td>39.0 (37.6, 40.3)</td>
+<td>24.7 (23.1, 26.4)</td>
+<td>0.63 (0.59, 0.68)</td>
+<td>0.66 (0.60, 0.72)</td>
+</tr>
+<tr>
+<td>Witnessed parental violence</td>
+<td>23.1 (21.9, 24.3)</td>
+<td>17.1 (15.6, 18.6)</td>
+<td>0.74 (0.67, 0.82)</td>
+<td>0.67 (0.59, 0.76)</td>
+</tr>
+<tr>
+<td>Physical abuse</td>
+<td>33.8 (32.5, 35.1)</td>
+<td>30.4 (28.5, 32.3)</td>
+<td>0.90 (0.83, 0.97)</td>
+<td>0.88 (0.80, 0.97)</td>
+</tr>
+<tr>
+<td>Verbal abuse</td>
+<td>40.8 (39.4, 42.2)</td>
+<td>18.1 (16.5, 19.8)</td>
+<td>0.44 (0.40, 0.49)</td>
+<td>0.51 (0.45, 0.57)</td>
+</tr>
+<tr>
+<td>4+ ACEs (standard 8-category score)</td>
+<td>25.3 (24.1, 26.5)</td>
+<td>10.8 (9.5, 12.1)</td>
+<td>0.43 (0.37, 0.48)</td>
+<td>0.43 (0.37, 0.51)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>CHIS 2021–2025</strong> (jackknife replicate weights RAKEDW1–80, scale 1, MSE)</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>English % (95% CI)</th>
+<th>Spanish % (95% CI)</th>
+<th>Crude PR (95% CI)</th>
+<th>Adjusted PR (95% CI)</th>
+<th>Adj. + nativity PR (95% CI)*</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Household mental illness</td>
+<td>23.8 (23.1, 24.5)</td>
+<td>5.6 (4.9, 6.5)</td>
+<td>0.24 (0.21, 0.27)</td>
+<td>0.35 (0.30, 0.40)</td>
+<td>0.45 (0.38, 0.53)</td>
+</tr>
+<tr>
+<td>Household problem drinking</td>
+<td>30.1 (29.2, 31.0)</td>
+<td>18.4 (17.2, 19.5)</td>
+<td>0.61 (0.57, 0.65)</td>
+<td>0.60 (0.56, 0.65)</td>
+<td>0.67 (0.62, 0.73)</td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td>14.5 (13.9, 15.1)</td>
+<td>4.6 (3.9, 5.3)</td>
+<td>0.31 (0.27, 0.37)</td>
+<td>0.32 (0.27, 0.37)</td>
+<td>0.49 (0.41, 0.58)</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td>13.1 (12.6, 13.7)</td>
+<td>2.6 (2.1, 3.2)</td>
+<td>0.20 (0.16, 0.25)</td>
+<td>0.22 (0.17, 0.28)</td>
+<td>0.43 (0.33, 0.57)</td>
+</tr>
+<tr>
+<td>Parental separation/divorce</td>
+<td>30.5 (29.6, 31.4)</td>
+<td>21.0 (19.9, 22.1)</td>
+<td>0.69 (0.65, 0.73)</td>
+<td>0.70 (0.65, 0.75)</td>
+<td>0.78 (0.71, 0.85)</td>
+</tr>
+<tr>
+<td>Witnessed parental violence</td>
+<td>27.6 (26.9, 28.3)</td>
+<td>20.3 (19.1, 21.7)</td>
+<td>0.74 (0.69, 0.79)</td>
+<td>0.69 (0.63, 0.75)</td>
+<td>0.71 (0.65, 0.78)</td>
+</tr>
+<tr>
+<td>Physical abuse</td>
+<td>28.5 (27.7, 29.4)</td>
+<td>29.4 (28.1, 30.7)</td>
+<td>1.03 (0.98, 1.08)</td>
+<td>1.00 (0.94, 1.05)</td>
+<td>0.98 (0.92, 1.05)</td>
+</tr>
+<tr>
+<td>Verbal abuse</td>
+<td>45.8 (44.9, 46.8)</td>
+<td>27.3 (25.9, 28.7)</td>
+<td>0.60 (0.56, 0.63)</td>
+<td>0.67 (0.63, 0.70)</td>
+<td>0.72 (0.67, 0.77)</td>
+</tr>
+<tr>
+<td>4+ ACEs (standard 8-category score)</td>
+<td>26.1 (25.4, 26.8)</td>
+<td>13.6 (12.6, 14.8)</td>
+<td>0.52 (0.48, 0.57)</td>
+<td>0.56 (0.51, 0.62)</td>
+<td>0.65 (0.58, 0.73)</td>
+</tr>
+</tbody>
+</table>
+<p>*Not pre-specified for Table 2; added as context for H1b (adds born outside US and percent of life in US).</p>
+<h2>S3. Model fit</h2>
+<p>Source: <code>analysis/RESULTS.md</code> §3. WLSMV, theta parameterization, survey weights; scaled (mean- and variance-adjusted) indices. CFI/TLI are computed against a baseline conditional on the covariates. Fit was reported but was not a decision criterion.</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th style="text-align: right;">χ² (scaled)</th>
+<th style="text-align: right;">df</th>
+<th style="text-align: right;">CFI</th>
+<th style="text-align: right;">TLI</th>
+<th style="text-align: right;">RMSEA</th>
+<th style="text-align: right;">SRMR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Primary MIMIC, BRFSS</td>
+<td style="text-align: right;">1124.0</td>
+<td style="text-align: right;">226</td>
+<td style="text-align: right;">0.946</td>
+<td style="text-align: right;">0.993</td>
+<td style="text-align: right;">0.0106</td>
+<td style="text-align: right;">0.050</td>
+</tr>
+<tr>
+<td>Primary MIMIC, CHIS</td>
+<td style="text-align: right;">1594.6</td>
+<td style="text-align: right;">196</td>
+<td style="text-align: right;">0.942</td>
+<td style="text-align: right;">0.992</td>
+<td style="text-align: right;">0.0154</td>
+<td style="text-align: right;">0.050</td>
+</tr>
+<tr>
+<td>S1 CHIS + nativity</td>
+<td style="text-align: right;">1521.1</td>
+<td style="text-align: right;">226</td>
+<td style="text-align: right;">0.947</td>
+<td style="text-align: right;">0.993</td>
+<td style="text-align: right;">0.0138</td>
+<td style="text-align: right;">0.050</td>
+</tr>
+<tr>
+<td>S2 CHIS foreign-born</td>
+<td style="text-align: right;">516.7</td>
+<td style="text-align: right;">220</td>
+<td style="text-align: right;">0.968</td>
+<td style="text-align: right;">0.996</td>
+<td style="text-align: right;">0.0109</td>
+<td style="text-align: right;">0.065</td>
+</tr>
+<tr>
+<td>S4a one factor, BRFSS</td>
+<td style="text-align: right;">1535.5</td>
+<td style="text-align: right;">262</td>
+<td style="text-align: right;">0.924</td>
+<td style="text-align: right;">0.992</td>
+<td style="text-align: right;">0.0117</td>
+<td style="text-align: right;">0.077</td>
+</tr>
+<tr>
+<td>S4a one factor, CHIS</td>
+<td style="text-align: right;">2625.8</td>
+<td style="text-align: right;">227</td>
+<td style="text-align: right;">0.901</td>
+<td style="text-align: right;">0.988</td>
+<td style="text-align: right;">0.0188</td>
+<td style="text-align: right;">0.096</td>
+</tr>
+<tr>
+<td>S6 CHIS mode interaction</td>
+<td style="text-align: right;">1556.1</td>
+<td style="text-align: right;">202</td>
+<td style="text-align: right;">0.944</td>
+<td style="text-align: right;">0.992</td>
+<td style="text-align: right;">0.0150</td>
+<td style="text-align: right;">0.050</td>
+</tr>
+<tr>
+<td>S7 BRFSS 11 items, 3 factors</td>
+<td style="text-align: right;">1281.2</td>
+<td style="text-align: right;">318</td>
+<td style="text-align: right;">0.975</td>
+<td style="text-align: right;">0.996</td>
+<td style="text-align: right;">0.0092</td>
+<td style="text-align: right;">0.042</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Primary and nativity models: all language parameters</strong> (source: <code>analysis/primary_results.md</code>, <code>analysis/secondary/effects_s1.csv</code>, <code>effects_s2.csv</code>; replicate SEs)</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Parameter</th>
+<th style="text-align: right;">b (probit)</th>
+<th style="text-align: right;">Replicate SE</th>
+<th>95% CI</th>
+<th>OR-equiv. (95% CI)</th>
+<th style="text-align: right;">p</th>
+<th>Δ endorsement, Spanish (pp, 95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRFSS primary</td>
+<td>Household dysfunction factor</td>
+<td style="text-align: right;">−0.537</td>
+<td style="text-align: right;">0.061</td>
+<td>−0.656, −0.418</td>
+<td></td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>BRFSS primary</td>
+<td>Physical/emotional abuse factor</td>
+<td style="text-align: right;">−0.408</td>
+<td style="text-align: right;">0.049</td>
+<td>−0.504, −0.312</td>
+<td></td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>BRFSS primary</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.624</td>
+<td style="text-align: right;">0.114</td>
+<td>−0.848, −0.401</td>
+<td>0.35 (0.24, 0.51)</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>−6.0 (−7.9, −4.1)</td>
+</tr>
+<tr>
+<td>BRFSS primary</td>
+<td>Household drug use</td>
+<td style="text-align: right;">−0.696</td>
+<td style="text-align: right;">0.118</td>
+<td>−0.927, −0.466</td>
+<td>0.31 (0.21, 0.45)</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>−3.1 (−4.2, −2.0)</td>
+</tr>
+<tr>
+<td>BRFSS primary</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.655</td>
+<td style="text-align: right;">0.088</td>
+<td>−0.826, −0.483</td>
+<td>0.33 (0.25, 0.44)</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>−5.2 (−6.6, −3.8)</td>
+</tr>
+<tr>
+<td>CHIS primary</td>
+<td>Household dysfunction factor</td>
+<td style="text-align: right;">−0.601</td>
+<td style="text-align: right;">0.037</td>
+<td>−0.673, −0.528</td>
+<td></td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>CHIS primary</td>
+<td>Physical/emotional abuse factor</td>
+<td style="text-align: right;">−0.270</td>
+<td style="text-align: right;">0.025</td>
+<td>−0.318, −0.222</td>
+<td></td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>CHIS primary</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.315</td>
+<td style="text-align: right;">0.051</td>
+<td>−0.416, −0.214</td>
+<td>0.59 (0.49, 0.70)</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>−4.4 (−5.8, −3.1)</td>
+</tr>
+<tr>
+<td>CHIS primary</td>
+<td>Household drug use</td>
+<td style="text-align: right;">−0.266</td>
+<td style="text-align: right;">0.082</td>
+<td>−0.426, −0.106</td>
+<td>0.64 (0.48, 0.83)</td>
+<td style="text-align: right;">0.001</td>
+<td>−1.5 (−2.4, −0.6)</td>
+</tr>
+<tr>
+<td>CHIS primary</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.493</td>
+<td style="text-align: right;">0.086</td>
+<td>−0.662, −0.324</td>
+<td>0.43 (0.32, 0.58)</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>−2.9 (−3.8, −1.9)</td>
+</tr>
+<tr>
+<td>S1 CHIS + nativity</td>
+<td>Household dysfunction factor</td>
+<td style="text-align: right;">−0.441</td>
+<td style="text-align: right;">0.041</td>
+<td></td>
+<td></td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>S1 CHIS + nativity</td>
+<td>Physical/emotional abuse factor</td>
+<td style="text-align: right;">−0.234</td>
+<td style="text-align: right;">0.030</td>
+<td></td>
+<td></td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>S1 CHIS + nativity</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.231</td>
+<td style="text-align: right;">0.059</td>
+<td></td>
+<td>0.67 (0.55, 0.82)</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>S1 CHIS + nativity</td>
+<td>Household drug use</td>
+<td style="text-align: right;">−0.066</td>
+<td style="text-align: right;">0.091</td>
+<td></td>
+<td>0.89 (0.66, 1.21)</td>
+<td style="text-align: right;">0.469</td>
+<td></td>
+</tr>
+<tr>
+<td>S1 CHIS + nativity</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.128</td>
+<td style="text-align: right;">0.106</td>
+<td></td>
+<td>0.81 (0.57, 1.15)</td>
+<td style="text-align: right;">0.228</td>
+<td></td>
+</tr>
+<tr>
+<td>S2 CHIS foreign-born (n = 11,439)</td>
+<td>Household dysfunction factor</td>
+<td style="text-align: right;">−0.375</td>
+<td style="text-align: right;">0.056</td>
+<td></td>
+<td></td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>S2 CHIS foreign-born</td>
+<td>Physical/emotional abuse factor</td>
+<td style="text-align: right;">−0.147</td>
+<td style="text-align: right;">0.037</td>
+<td></td>
+<td></td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+</tr>
+<tr>
+<td>S2 CHIS foreign-born</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.217</td>
+<td style="text-align: right;">0.072</td>
+<td></td>
+<td>0.69 (0.54, 0.88)</td>
+<td style="text-align: right;">0.003</td>
+<td></td>
+</tr>
+<tr>
+<td>S2 CHIS foreign-born</td>
+<td>Household drug use</td>
+<td style="text-align: right;">−0.005</td>
+<td style="text-align: right;">0.112</td>
+<td></td>
+<td>0.99 (0.68, 1.44)</td>
+<td style="text-align: right;">0.967</td>
+<td></td>
+</tr>
+<tr>
+<td>S2 CHIS foreign-born</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">0.002</td>
+<td style="text-align: right;">0.129</td>
+<td></td>
+<td>1.00 (0.65, 1.54)</td>
+<td style="text-align: right;">0.990</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Holm-adjusted p-values for the six primary target tests: all ≤ 0.001. Replicates converged: BRFSS 100/100, CHIS 80/80.</p>
+<h2>S4. Multigroup CFA by interview language (plan S3)</h2>
+<p>Source: <code>analysis/secondary/s3_fit.csv</code>, <code>s3_difftests.csv</code>, <code>s3_latent_means.csv</code>, <code>s3_score_tests.csv</code>. Binary items, theta parameterization, latent-response residual variances fixed at 1 in both groups. Scalar models: loadings and thresholds equal; Spanish latent means and variances free. Partial: as scalar but the three target items' loadings and thresholds free. Equality constraints were written explicitly because lavaan 0.7.2's <code>group.equal = "thresholds"</code> was not applied for these binary items (df checked: 38/50/44).</p>
+<table>
+<thead>
+<tr>
+<th>Survey</th>
+<th>Model</th>
+<th style="text-align: right;">χ² (scaled)</th>
+<th style="text-align: right;">df</th>
+<th style="text-align: right;">CFI</th>
+<th style="text-align: right;">RMSEA</th>
+<th style="text-align: right;">SRMR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRFSS</td>
+<td>configural</td>
+<td style="text-align: right;">317.3</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">0.983</td>
+<td style="text-align: right;">0.0204</td>
+<td style="text-align: right;">0.052</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>scalar</td>
+<td style="text-align: right;">586.1</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">0.967</td>
+<td style="text-align: right;">0.0246</td>
+<td style="text-align: right;">0.056</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>partial</td>
+<td style="text-align: right;">529.9</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">0.970</td>
+<td style="text-align: right;">0.0250</td>
+<td style="text-align: right;">0.055</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>configural</td>
+<td style="text-align: right;">487.8</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">0.982</td>
+<td style="text-align: right;">0.0281</td>
+<td style="text-align: right;">0.051</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>scalar</td>
+<td style="text-align: right;">698.5</td>
+<td style="text-align: right;">50</td>
+<td style="text-align: right;">0.973</td>
+<td style="text-align: right;">0.0294</td>
+<td style="text-align: right;">0.055</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>partial</td>
+<td style="text-align: right;">633.5</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">0.976</td>
+<td style="text-align: right;">0.0299</td>
+<td style="text-align: right;">0.052</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Survey</th>
+<th>Comparison</th>
+<th style="text-align: right;">Δχ² (scaled)</th>
+<th style="text-align: right;">Δdf</th>
+<th style="text-align: right;">p</th>
+<th style="text-align: right;">ΔCFI</th>
+<th style="text-align: right;">ΔRMSEA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRFSS</td>
+<td>configural vs full scalar</td>
+<td style="text-align: right;">257.0</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td style="text-align: right;">−0.0160</td>
+<td style="text-align: right;">0.0042</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>configural vs partial scalar (targets free)</td>
+<td style="text-align: right;">190.4</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td style="text-align: right;">−0.0128</td>
+<td style="text-align: right;">0.0046</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>partial scalar vs full scalar</td>
+<td style="text-align: right;">79.5</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td style="text-align: right;">−0.0031</td>
+<td style="text-align: right;">−0.0004</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>configural vs full scalar</td>
+<td style="text-align: right;">217.9</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td style="text-align: right;">−0.0081</td>
+<td style="text-align: right;">0.0013</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>configural vs partial scalar (targets free)</td>
+<td style="text-align: right;">139.1</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td style="text-align: right;">−0.0057</td>
+<td style="text-align: right;">0.0018</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>partial scalar vs full scalar</td>
+<td style="text-align: right;">93.6</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td style="text-align: right;">−0.0024</td>
+<td style="text-align: right;">−0.0005</td>
+</tr>
+</tbody>
+</table>
+<p>Latent mean of the Spanish-interview group (English = 0, SD 1): BRFSS scalar household dysfunction −0.605 (SE 0.052), abuse −0.453 (0.048); BRFSS partial −0.466 (0.060), −0.453 (0.048). CHIS scalar −0.674 (0.049), −0.449 (0.047); CHIS partial −0.578 (0.064), −0.449 (0.047).</p>
+<p><strong>Score tests on the full scalar model</strong> (eight largest per survey; one cross-group equality constraint per row):</p>
+<table>
+<thead>
+<tr>
+<th>Survey</th>
+<th>Constraint</th>
+<th style="text-align: right;">χ²</th>
+<th style="text-align: right;">scaled χ²</th>
+<th style="text-align: right;">p (scaled)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRFSS</td>
+<td>Verbal abuse: threshold</td>
+<td style="text-align: right;">121.2</td>
+<td style="text-align: right;">217.1</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Household problem drinking: threshold</td>
+<td style="text-align: right;">112.7</td>
+<td style="text-align: right;">129.5</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Physical abuse: threshold</td>
+<td style="text-align: right;">59.5</td>
+<td style="text-align: right;">102.1</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Household mental illness: threshold</td>
+<td style="text-align: right;">54.7</td>
+<td style="text-align: right;">61.2</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Household problem drinking: loading</td>
+<td style="text-align: right;">31.6</td>
+<td style="text-align: right;">22.7</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Verbal abuse: loading</td>
+<td style="text-align: right;">25.0</td>
+<td style="text-align: right;">38.2</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Witnessed parental violence: threshold</td>
+<td style="text-align: right;">13.4</td>
+<td style="text-align: right;">22.9</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Household incarceration: threshold</td>
+<td style="text-align: right;">11.1</td>
+<td style="text-align: right;">12.1</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Physical abuse: threshold</td>
+<td style="text-align: right;">100.2</td>
+<td style="text-align: right;">207.9</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Household mental illness: threshold</td>
+<td style="text-align: right;">83.1</td>
+<td style="text-align: right;">90.8</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Verbal abuse: threshold</td>
+<td style="text-align: right;">82.5</td>
+<td style="text-align: right;">147.3</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Household problem drinking: threshold</td>
+<td style="text-align: right;">59.7</td>
+<td style="text-align: right;">75.5</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Physical abuse: loading</td>
+<td style="text-align: right;">38.8</td>
+<td style="text-align: right;">56.4</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Household incarceration: loading</td>
+<td style="text-align: right;">22.3</td>
+<td style="text-align: right;">14.2</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Household problem drinking: loading</td>
+<td style="text-align: right;">17.5</td>
+<td style="text-align: right;">13.7</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Verbal abuse: loading</td>
+<td style="text-align: right;">12.0</td>
+<td style="text-align: right;">15.0</td>
+<td style="text-align: right;">&lt;0.001</td>
+</tr>
+</tbody>
+</table>
+<h2>S5. Anchor sensitivity and alignment (plan S4)</h2>
+<p>Source: <code>analysis/secondary/s4_effects.csv</code>, <code>s4b_purification_history.csv</code>, <code>s4d_alignment_*.csv</code>. lavaan weight-robust SEs.</p>
+<table>
+<thead>
+<tr>
+<th>Survey</th>
+<th>Analysis</th>
+<th>Item</th>
+<th style="text-align: right;">b</th>
+<th style="text-align: right;">SE</th>
+<th style="text-align: right;">p</th>
+<th>OR-equiv. (95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRFSS</td>
+<td>S4c one-at-a-time</td>
+<td>Household problem drinking</td>
+<td style="text-align: right;">0.606</td>
+<td style="text-align: right;">0.128</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>2.80 (1.83, 4.29)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4c one-at-a-time</td>
+<td>Parental separation/divorce</td>
+<td style="text-align: right;">−0.255</td>
+<td style="text-align: right;">0.050</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.65 (0.55, 0.77)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4c one-at-a-time</td>
+<td>Witnessed parental violence</td>
+<td style="text-align: right;">0.085</td>
+<td style="text-align: right;">0.077</td>
+<td style="text-align: right;">0.269</td>
+<td>1.16 (0.89, 1.49)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4c one-at-a-time</td>
+<td>Physical abuse</td>
+<td style="text-align: right;">0.419</td>
+<td style="text-align: right;">0.057</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>2.04 (1.69, 2.46)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4c one-at-a-time</td>
+<td>Verbal abuse</td>
+<td style="text-align: right;">−0.691</td>
+<td style="text-align: right;">0.078</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.31 (0.24, 0.40)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4a one factor</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.677</td>
+<td style="text-align: right;">0.086</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.32 (0.24, 0.42)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4a one factor</td>
+<td>Household drug use</td>
+<td style="text-align: right;">−0.745</td>
+<td style="text-align: right;">0.094</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.28 (0.21, 0.39)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4a one factor</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.708</td>
+<td style="text-align: right;">0.087</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.30 (0.22, 0.40)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4b purified (freed: verbal, drinking, witnessed violence)</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.223</td>
+<td style="text-align: right;">0.139</td>
+<td style="text-align: right;">0.110</td>
+<td>0.68 (0.43, 1.09)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4b purified</td>
+<td>Household drug use</td>
+<td style="text-align: right;">−0.137</td>
+<td style="text-align: right;">0.169</td>
+<td style="text-align: right;">0.418</td>
+<td>0.79 (0.45, 1.39)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4b purified</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.219</td>
+<td style="text-align: right;">0.138</td>
+<td style="text-align: right;">0.113</td>
+<td>0.69 (0.43, 1.09)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4b purified</td>
+<td>Verbal abuse</td>
+<td style="text-align: right;">−0.872</td>
+<td style="text-align: right;">0.089</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.23 (0.17, 0.30)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4b purified</td>
+<td>Household problem drinking</td>
+<td style="text-align: right;">0.606</td>
+<td style="text-align: right;">0.128</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>2.80 (1.83, 4.30)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>S4b purified</td>
+<td>Witnessed parental violence</td>
+<td style="text-align: right;">−0.289</td>
+<td style="text-align: right;">0.085</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.61 (0.46, 0.81)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4c one-at-a-time</td>
+<td>Household problem drinking</td>
+<td style="text-align: right;">0.247</td>
+<td style="text-align: right;">0.125</td>
+<td style="text-align: right;">0.048</td>
+<td>1.52 (1.00, 2.31)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4c one-at-a-time</td>
+<td>Parental separation/divorce</td>
+<td style="text-align: right;">−0.092</td>
+<td style="text-align: right;">0.045</td>
+<td style="text-align: right;">0.042</td>
+<td>0.86 (0.74, 0.99)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4c one-at-a-time</td>
+<td>Witnessed parental violence</td>
+<td style="text-align: right;">−0.186</td>
+<td style="text-align: right;">0.057</td>
+<td style="text-align: right;">0.001</td>
+<td>0.73 (0.60, 0.88)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4c one-at-a-time</td>
+<td>Physical abuse</td>
+<td style="text-align: right;">0.687</td>
+<td style="text-align: right;">0.065</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>3.21 (2.59, 3.99)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4c one-at-a-time</td>
+<td>Verbal abuse</td>
+<td style="text-align: right;">−0.471</td>
+<td style="text-align: right;">0.060</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.45 (0.37, 0.55)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4a one factor</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.517</td>
+<td style="text-align: right;">0.058</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.42 (0.34, 0.50)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4a one factor</td>
+<td>Household drug use</td>
+<td style="text-align: right;">−0.547</td>
+<td style="text-align: right;">0.082</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.39 (0.30, 0.52)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4a one factor</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.730</td>
+<td style="text-align: right;">0.092</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.29 (0.21, 0.39)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4b purified (freed: physical abuse)</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.315</td>
+<td style="text-align: right;">0.069</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.59 (0.47, 0.74)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4b purified</td>
+<td>Household drug use</td>
+<td style="text-align: right;">−0.266</td>
+<td style="text-align: right;">0.102</td>
+<td style="text-align: right;">0.009</td>
+<td>0.64 (0.45, 0.89)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4b purified</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.493</td>
+<td style="text-align: right;">0.109</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.43 (0.30, 0.62)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>S4b purified</td>
+<td>Physical abuse</td>
+<td style="text-align: right;">0.687</td>
+<td style="text-align: right;">0.065</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>3.21 (2.59, 3.99)</td>
+</tr>
+<tr>
+<td>CHIS + nativity</td>
+<td>S4c one-at-a-time</td>
+<td>Household problem drinking</td>
+<td style="text-align: right;">0.133</td>
+<td style="text-align: right;">0.150</td>
+<td style="text-align: right;">0.374</td>
+<td>1.25 (0.76, 2.06)</td>
+</tr>
+<tr>
+<td>CHIS + nativity</td>
+<td>S4c one-at-a-time</td>
+<td>Parental separation/divorce</td>
+<td style="text-align: right;">−0.048</td>
+<td style="text-align: right;">0.054</td>
+<td style="text-align: right;">0.370</td>
+<td>0.92 (0.77, 1.10)</td>
+</tr>
+<tr>
+<td>CHIS + nativity</td>
+<td>S4c one-at-a-time</td>
+<td>Witnessed parental violence</td>
+<td style="text-align: right;">−0.191</td>
+<td style="text-align: right;">0.070</td>
+<td style="text-align: right;">0.006</td>
+<td>0.72 (0.57, 0.91)</td>
+</tr>
+<tr>
+<td>CHIS + nativity</td>
+<td>S4c one-at-a-time</td>
+<td>Physical abuse</td>
+<td style="text-align: right;">0.557</td>
+<td style="text-align: right;">0.076</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>2.58 (2.00, 3.32)</td>
+</tr>
+<tr>
+<td>CHIS + nativity</td>
+<td>S4c one-at-a-time</td>
+<td>Verbal abuse</td>
+<td style="text-align: right;">−0.331</td>
+<td style="text-align: right;">0.071</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.57 (0.45, 0.72)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Purification history</strong> (flag: p &lt; .01 and |b| ≥ 0.24; the largest flagged |b| freed each iteration, at least one anchor kept per factor): BRFSS iteration 1 flagged drinking, divorce, physical abuse, verbal abuse → freed verbal; iteration 2 flagged drinking, divorce, witnessed violence → freed drinking; iteration 3 flagged witnessed violence → freed; iteration 4 none. CHIS iteration 1 flagged physical abuse, verbal abuse → freed physical abuse; iteration 2 none.</p>
+<p><strong>Alignment (anchor-free; Spanish − English aligned intercept on the probit scale; <code>sirt::invariance.alignment</code> on the configural two-group estimates, no covariates):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Survey</th>
+<th>Factor</th>
+<th>Item</th>
+<th style="text-align: right;">Spanish − English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRFSS</td>
+<td>Household dysfunction</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.47</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Household dysfunction</td>
+<td>Household problem drinking</td>
+<td style="text-align: right;">0.47</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Household dysfunction</td>
+<td>Household drug use</td>
+<td style="text-align: right;">0.01</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Household dysfunction</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.21</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Household dysfunction</td>
+<td>Parental separation/divorce</td>
+<td style="text-align: right;">−0.16</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Abuse</td>
+<td>Witnessed parental violence</td>
+<td style="text-align: right;">−0.01</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Abuse</td>
+<td>Physical abuse</td>
+<td style="text-align: right;">0.05</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Abuse</td>
+<td>Verbal abuse</td>
+<td style="text-align: right;">−1.02</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Household dysfunction</td>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.65</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Household dysfunction</td>
+<td>Household problem drinking</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Household dysfunction</td>
+<td>Household drug use</td>
+<td style="text-align: right;">0.02</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Household dysfunction</td>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.18</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Household dysfunction</td>
+<td>Parental separation/divorce</td>
+<td style="text-align: right;">−0.11</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Abuse</td>
+<td>Witnessed parental violence</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Abuse</td>
+<td>Physical abuse</td>
+<td style="text-align: right;">0.52</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Abuse</td>
+<td>Verbal abuse</td>
+<td style="text-align: right;">−0.43</td>
+</tr>
+</tbody>
+</table>
+<p>Aligned Spanish latent means (SD): BRFSS household dysfunction −0.578 (0.736), abuse −0.225 (1.078); CHIS household dysfunction −0.498 (0.905), abuse −0.409 (1.180). With only two groups alignment is weakly informative and is reported as a descriptive check.</p>
+<h2>S6. Impact, mode and 11-item models; deviations from the plan</h2>
+<p><strong>S5 impact</strong> (source: <code>analysis/secondary/s5_impact_*.csv</code>; 8 harmonized items; 50 simulation draws per respondent with common random numbers; replicate 95% CIs)</p>
+<table>
+<thead>
+<tr>
+<th>Survey</th>
+<th>Quantity</th>
+<th>Observed</th>
+<th>Model-implied (as estimated)</th>
+<th>Target DIF removed</th>
+<th>Change in gap</th>
+<th>% of model-implied gap due to target DIF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BRFSS</td>
+<td>Gap in mean 8-item count (Sp − En)</td>
+<td>−0.95 (−1.03, −0.87)</td>
+<td>−0.94 (−1.03, −0.86)</td>
+<td>−0.80 (−0.90, −0.70)</td>
+<td>0.14 (0.11, 0.18)</td>
+<td>15.3 (11.1, 19.6)</td>
+</tr>
+<tr>
+<td>BRFSS</td>
+<td>Gap in % with ≥ 4 of 8 items (pp)</td>
+<td>−14.8 (−16.5, −13.2)</td>
+<td>−15.0 (−16.2, −13.8)</td>
+<td>−12.2 (−13.7, −10.8)</td>
+<td>2.7 (2.1, 3.4)</td>
+<td>18.3 (13.4, 23.2)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Gap in mean 8-item count (Sp − En)</td>
+<td>−0.85 (−0.91, −0.79)</td>
+<td>−0.84 (−0.90, −0.78)</td>
+<td>−0.75 (−0.82, −0.68)</td>
+<td>0.09 (0.07, 0.11)</td>
+<td>10.3 (7.6, 13.1)</td>
+</tr>
+<tr>
+<td>CHIS</td>
+<td>Gap in % with ≥ 4 of 8 items (pp)</td>
+<td>−12.7 (−14.0, −11.5)</td>
+<td>−13.7 (−14.6, −12.7)</td>
+<td>−12.1 (−13.1, −11.0)</td>
+<td>1.6 (1.2, 2.0)</td>
+<td>11.8 (8.6, 15.0)</td>
+</tr>
+</tbody>
+</table>
+<p>Spanish mean count / % ≥ 4: BRFSS observed 1.17 / 9.0%, model 1.19 / 8.6%, DIF removed 1.33 / 11.3% (English observed 2.12 / 23.8%). CHIS observed 1.29 / 11.1%, model 1.31 / 10.1%, DIF removed 1.39 / 11.7% (English observed 2.14 / 23.8%).</p>
+<p><strong>S6 mode (CHIS)</strong> (source: <code>analysis/secondary/s6_mode.csv</code>; Spanish × web interaction on the target direct effects; robust SEs)</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Term</th>
+<th style="text-align: right;">b</th>
+<th style="text-align: right;">SE</th>
+<th style="text-align: right;">p</th>
+<th>OR-equiv. (95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Household mental illness</td>
+<td>Spanish direct effect, phone</td>
+<td style="text-align: right;">−0.252</td>
+<td style="text-align: right;">0.128</td>
+<td style="text-align: right;">0.049</td>
+<td>0.65 (0.43, 1.00)</td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td>Spanish direct effect, phone</td>
+<td style="text-align: right;">−0.134</td>
+<td style="text-align: right;">0.169</td>
+<td style="text-align: right;">0.428</td>
+<td>0.80 (0.45, 1.40)</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td>Spanish direct effect, phone</td>
+<td style="text-align: right;">−0.144</td>
+<td style="text-align: right;">0.173</td>
+<td style="text-align: right;">0.404</td>
+<td>0.78 (0.44, 1.39)</td>
+</tr>
+<tr>
+<td>Household mental illness</td>
+<td>Spanish direct effect, web</td>
+<td style="text-align: right;">−0.316</td>
+<td style="text-align: right;">0.077</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.58 (0.45, 0.76)</td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td>Spanish direct effect, web</td>
+<td style="text-align: right;">−0.306</td>
+<td style="text-align: right;">0.117</td>
+<td style="text-align: right;">0.009</td>
+<td>0.59 (0.40, 0.88)</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td>Spanish direct effect, web</td>
+<td style="text-align: right;">−0.687</td>
+<td style="text-align: right;">0.134</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.31 (0.20, 0.49)</td>
+</tr>
+<tr>
+<td>Household mental illness</td>
+<td>Spanish × web interaction</td>
+<td style="text-align: right;">−0.064</td>
+<td style="text-align: right;">0.141</td>
+<td style="text-align: right;">0.649</td>
+<td>0.90 (0.56, 1.44)</td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td>Spanish × web interaction</td>
+<td style="text-align: right;">−0.172</td>
+<td style="text-align: right;">0.190</td>
+<td style="text-align: right;">0.365</td>
+<td>0.75 (0.40, 1.40)</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td>Spanish × web interaction</td>
+<td style="text-align: right;">−0.543</td>
+<td style="text-align: right;">0.209</td>
+<td style="text-align: right;">0.009</td>
+<td>0.40 (0.20, 0.80)</td>
+</tr>
+<tr>
+<td>Household mental illness</td>
+<td>Web direct effect (English)</td>
+<td style="text-align: right;">0.129</td>
+<td style="text-align: right;">0.065</td>
+<td style="text-align: right;">0.048</td>
+<td>1.24 (1.00, 1.55)</td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td>Web direct effect (English)</td>
+<td style="text-align: right;">0.039</td>
+<td style="text-align: right;">0.087</td>
+<td style="text-align: right;">0.654</td>
+<td>1.07 (0.80, 1.43)</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td>Web direct effect (English)</td>
+<td style="text-align: right;">−0.079</td>
+<td style="text-align: right;">0.082</td>
+<td style="text-align: right;">0.338</td>
+<td>0.88 (0.67, 1.15)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>S7 BRFSS 11 items, three-factor MIMIC</strong> (source: <code>analysis/secondary/s7_effects.csv</code>; robust SEs)</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th style="text-align: right;">b</th>
+<th style="text-align: right;">SE</th>
+<th style="text-align: right;">p</th>
+<th>OR-equiv. (95% CI)</th>
+<th style="text-align: right;">Δ endorsement (pp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Physical/emotional abuse factor</td>
+<td style="text-align: right;">−0.408</td>
+<td style="text-align: right;">0.047</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>Household dysfunction factor</td>
+<td style="text-align: right;">−0.534</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>Sexual abuse factor</td>
+<td style="text-align: right;">−0.406</td>
+<td style="text-align: right;">0.049</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td style="text-align: right;">−0.695</td>
+<td style="text-align: right;">0.108</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.31 (0.21, 0.44)</td>
+<td style="text-align: right;">−3.1</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td style="text-align: right;">−0.655</td>
+<td style="text-align: right;">0.092</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.33 (0.24, 0.45)</td>
+<td style="text-align: right;">−5.4</td>
+</tr>
+<tr>
+<td>Household mental illness</td>
+<td style="text-align: right;">−0.630</td>
+<td style="text-align: right;">0.102</td>
+<td style="text-align: right;">&lt;0.001</td>
+<td>0.34 (0.24, 0.48)</td>
+<td style="text-align: right;">−5.9</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Deviations from the frozen plan</strong> (full text with reasons: <code>analysis/DEVIATIONS.md</code>)</p>
+<ol>
+<li>BRFSS bootstrap: 749 single-PSU strata (of 2,837) were merged with the nearest multi-PSU stratum in the same year × file × state (or year × file) because Rao–Wu subbootstrap weights are undefined for 1-PSU strata; 2,088 bootstrap strata remained. Taylor-linearization analyses (Table 2) use the planned strata with lonely-PSU adjustment. Check: bootstrap SE of the weighted Spanish share 0.0054 vs 0.0058 by Taylor; of mental-illness prevalence 0.0044 vs 0.0041.</li>
+<li>Integer PSU and stratum IDs were passed to <code>survey::as.svrepdesign</code> for speed; the algorithm is unchanged.</li>
+<li>Clarifications fixed before fitting: BRFSS age DK/refused and education refused kept as categories; replicate variance with MSE = TRUE; two-sided Wald p; the partial-support rule read as the same items in both surveys (the alternative reading gives the same verdict); S3 binary-item identification; S4b one-item-per-iteration purification with at least one anchor per factor; S6 includes web main effects; S5 uses the 8 harmonized items; one labelled, non-pre-specified CHIS + nativity column added to Table 2.</li>
+<li>Interpretive note (not a deviation): the plan assumed anchor bias could only be conservative; S4c shows problem drinking is over-endorsed in Spanish in BRFSS, so the primary BRFSS target estimates are not guaranteed to be conservative.</li>
+</ol>
+<h2>S7. Exploratory analyses (not pre-specified; run 1 November 2026)</h2>
+<p>These analyses preceded the frozen plan and generated H1. They use approximate design-based variance (cluster-robust sandwich estimators; state × year or year × stratum × PSU clusters; no replicate weights) and were not corrected for multiplicity across analyses. Full results, scripts and caveats: <code>exploratory/*/RESULTS.md</code>, <code>scripts/exploratory/</code>.</p>
+<h3>S7.1 BRFSS: logistic-regression DIF, two-parameter logistic anchor sensitivity, and the reconciliation of estimands</h3>
+<p>Source: <code>exploratory/dif/RESULTS.md</code>. Sample as in the main text (10,945 / 24,473), weights normalised to mean 1 within year.</p>
+<p><strong>Logistic-regression DIF, matching on the rest score of the other 10 items (no covariates).</strong> M1: item ~ S; M2: + Spanish; M3: + Spanish × S. Flag: BH-FDR q &lt; .05 across 22 tests and ΔR² (M1→M2) ≥ .02 or ≥ 10% change in the rest-score coefficient.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Sp %</th>
+<th>En %</th>
+<th>Crude OR</th>
+<th>Uniform-DIF OR [95% CI]</th>
+<th>pp diff at matched score</th>
+<th>ΔR² uniform</th>
+<th>ΔR² non-uniform</th>
+<th>Flag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Household mental illness</td>
+<td>4.2</td>
+<td>22.2</td>
+<td>0.15</td>
+<td><strong>0.21 [0.15, 0.29]</strong></td>
+<td>−10.6</td>
+<td>0.052</td>
+<td>0.000</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Household problem drinker</td>
+<td>16.8</td>
+<td>25.5</td>
+<td>0.59</td>
+<td>1.06 [0.99, 1.12]</td>
+<td>+0.6</td>
+<td>0.000</td>
+<td>0.001</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td>3.2</td>
+<td>14.5</td>
+<td>0.19</td>
+<td><strong>0.33 [0.24, 0.44]</strong></td>
+<td>−4.7</td>
+<td>0.021</td>
+<td>0.000</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td>2.7</td>
+<td>14.0</td>
+<td>0.17</td>
+<td><strong>0.27 [0.19, 0.37]</strong></td>
+<td>−5.8</td>
+<td>0.031</td>
+<td>0.000</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Parents separated/divorced</td>
+<td>25.4</td>
+<td>39.2</td>
+<td>0.53</td>
+<td>0.67 [0.54, 0.82]</td>
+<td>−8.1</td>
+<td>0.009</td>
+<td>0.001</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Witnessed parental violence</td>
+<td>17.1</td>
+<td>23.1</td>
+<td>0.69</td>
+<td>1.42 [1.25, 1.61]</td>
+<td>+3.7</td>
+<td>0.004</td>
+<td>0.002</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Physical abuse</td>
+<td>30.2</td>
+<td>34.1</td>
+<td>0.84</td>
+<td>1.50 [1.23, 1.83]</td>
+<td>+6.9</td>
+<td>0.007</td>
+<td>0.005</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Verbal abuse</td>
+<td>17.7</td>
+<td>40.9</td>
+<td>0.31</td>
+<td><strong>0.42 [0.31, 0.55]</strong></td>
+<td>−12.3</td>
+<td>0.024</td>
+<td>0.003</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Sexual: touched</td>
+<td>6.8</td>
+<td>13.9</td>
+<td>0.45</td>
+<td>1.06 [0.95, 1.19]</td>
+<td>+0.3</td>
+<td>0.000</td>
+<td>0.008</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Sexual: made to touch</td>
+<td>6.0</td>
+<td>10.7</td>
+<td>0.53</td>
+<td>1.34 [1.16, 1.53]</td>
+<td>+1.2</td>
+<td>0.002</td>
+<td>0.005</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Sexual: forced sex</td>
+<td>4.4</td>
+<td>6.8</td>
+<td>0.64</td>
+<td>1.98 [1.56, 2.53]</td>
+<td>+1.9</td>
+<td>0.009</td>
+<td>0.005</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+<p>With covariates (age, education, sex, income, year, state) the four ORs were 0.33, 0.34, 0.30 and 0.54; unweighted and purified (7-item matching) analyses flagged the same four items; recoding "parents not married" changed no OR by more than 0.02. Non-uniform DIF was negligible throughout (all ΔR² &lt; .01).</p>
+<p><strong>Two-group 2PL under alternative anchor sets</strong> (uniform DIF OR at equal latent level; anchors constrained equal across groups; Spanish latent mean and SD free; point estimates only):</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>A1 purified 7</th>
+<th>A2 drinker only</th>
+<th>A3 drink + divorce + sexual</th>
+<th>A4 household 5</th>
+<th>X1 physical + witnessed (extreme)</th>
+<th>X2 verbal + mental illness (extreme)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Household mental illness</td>
+<td>0.17</td>
+<td>0.20</td>
+<td>0.19</td>
+<td><em>anchor</em></td>
+<td>0.14</td>
+<td><em>anchor</em></td>
+</tr>
+<tr>
+<td>Household problem drinker</td>
+<td><em>anchor</em></td>
+<td><em>anchor</em></td>
+<td><em>anchor</em></td>
+<td><em>anchor</em></td>
+<td>0.71</td>
+<td>2.67</td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td>0.24</td>
+<td>0.28</td>
+<td>0.27</td>
+<td><em>anchor</em></td>
+<td>0.19</td>
+<td>0.91</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td>0.22</td>
+<td>0.24</td>
+<td>0.24</td>
+<td><em>anchor</em></td>
+<td>0.18</td>
+<td>0.61</td>
+</tr>
+<tr>
+<td>Parents separated/divorced</td>
+<td><em>anchor</em></td>
+<td>0.67</td>
+<td><em>anchor</em></td>
+<td><em>anchor</em></td>
+<td>0.58</td>
+<td>1.02</td>
+</tr>
+<tr>
+<td>Witnessed parental violence</td>
+<td><em>anchor</em></td>
+<td>1.30</td>
+<td>1.32</td>
+<td>3.63</td>
+<td><em>anchor</em></td>
+<td>3.97</td>
+</tr>
+<tr>
+<td>Physical abuse</td>
+<td><em>anchor</em></td>
+<td>1.58</td>
+<td>1.65</td>
+<td>3.78</td>
+<td><em>anchor</em></td>
+<td>4.06</td>
+</tr>
+<tr>
+<td>Verbal abuse</td>
+<td>0.33</td>
+<td>0.39</td>
+<td>0.40</td>
+<td>1.23</td>
+<td>0.25</td>
+<td><em>anchor</em></td>
+</tr>
+<tr>
+<td>Sexual: touched</td>
+<td><em>anchor</em></td>
+<td>0.95</td>
+<td><em>anchor</em></td>
+<td>8.27</td>
+<td>0.45</td>
+<td>9.22</td>
+</tr>
+<tr>
+<td>Sexual: made to touch</td>
+<td><em>anchor</em></td>
+<td>1.31</td>
+<td><em>anchor</em></td>
+<td>11.87</td>
+<td>0.61</td>
+<td>13.08</td>
+</tr>
+<tr>
+<td>Sexual: forced sex</td>
+<td><em>anchor</em></td>
+<td>1.91</td>
+<td><em>anchor</em></td>
+<td>16.82</td>
+<td>0.90</td>
+<td>18.64</td>
+</tr>
+<tr>
+<td><em>Spanish latent mean (English SD units)</em></td>
+<td>−0.38</td>
+<td>−0.46</td>
+<td>−0.52</td>
+<td>−1.00</td>
+<td>−0.23</td>
+<td>−1.06</td>
+</tr>
+</tbody>
+</table>
+<p>The items fall into two clusters with different language gaps. Under anchors drawn from the small-gap cluster (A1–A3), the four large-gap items have ORs of 0.17–0.40 and the latent deficit is 0.4–0.5 SD; under household anchors (A4), the abuse and sexual items appear over-endorsed by ORs of 3.6–16.8 and the deficit is 1.0 SD. Internal data cannot choose between these. DIF-corrected Spanish 4+ prevalence ranges from 5.4% to 19.3% across anchor sets (observed 10.7%; English 25.5%); under A1–A3 it is 13.8–15.8%.</p>
+<p><strong>Reconciling the odds ratios across analyses.</strong> For household mental illness in BRFSS the repository reports a crude OR of 0.17, a rest-score logistic DIF OR of 0.21 (0.33 with covariates), 2PL ORs of 0.17–0.20, a MIMIC primary OR-equivalent of 0.35, and a MIMIC purified OR-equivalent of 0.68. These differ because they are different estimands: the logistic and 2PL analyses condition on a single dimension defined by all other items (including the abuse and sexual items, which anchor the latent deficit at 0.4–0.5 SD), whereas the MIMIC conditions on a separate household-dysfunction factor whose language effect is identified by drinking and divorce only, adjusts for covariates, and reports exp(1.7β) from a probit model. The purified MIMIC is relative to divorce alone. The ordering is the same in every analysis: mental illness, incarceration, drug use and verbal abuse are the most under-endorsed items relative to the rest.</p>
+<p><strong>Spanish wording period.</strong> The 2019 and 2020 CDC Spanish versions differed on the witnessed-violence item, and the 2021–2025 Spanish text is unpublished. The witnessed-violence DIF fell from 2019 to 2020 (OR ratio 0.64–0.76, p = .005–.08) as the wording change would predict, but items with unchanged wording moved as much (verbal abuse ×1.4–1.6; forced sex ×0.55–0.66). The four flagged items showed the same direction in all three periods. No wording effect is identifiable.</p>
+<h3>S7.2 BRFSS: respondents' own mental-health reports versus the household item</h3>
+<p>Source: <code>exploratory/brfss_mh/RESULTS.md</code>. Sample A: Hispanic ACE-module respondents 2019–2025 (11,995 Spanish / 27,468 English; all valid responses per item). Adjusted for age, sex, education, income, state and year; clusters = year × stratum × PSU; weights normalised within year.</p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>wt% Spanish / English</th>
+<th>Crude OR (95% CI)</th>
+<th>Adjusted OR (95% CI)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACE: lived with depressed/mentally ill/suicidal</td>
+<td>4.4 / 22.8</td>
+<td>0.16 (0.13–0.19)</td>
+<td>0.20 (0.15–0.25)</td>
+</tr>
+<tr>
+<td>ACE: lived with someone incarcerated</td>
+<td>2.8 / 14.5</td>
+<td>0.17 (0.14–0.21)</td>
+<td>0.16 (0.12–0.21)</td>
+</tr>
+<tr>
+<td>ACE: lived with drug user</td>
+<td>3.4 / 14.8</td>
+<td>0.20 (0.17–0.25)</td>
+<td>0.20 (0.16–0.24)</td>
+</tr>
+<tr>
+<td>ACE: sworn at/insulted</td>
+<td>18.4 / 41.8</td>
+<td>0.32 (0.28–0.35)</td>
+<td>0.37 (0.32–0.42)</td>
+</tr>
+<tr>
+<td>ACE: physically hurt by parent/adult</td>
+<td>31.3 / 35.0</td>
+<td>0.84 (0.77–0.93)</td>
+<td>0.80 (0.70–0.91)</td>
+</tr>
+<tr>
+<td>Own depression diagnosis</td>
+<td>9.3 / 19.3</td>
+<td>0.43 (0.37–0.49)</td>
+<td>0.33 (0.28–0.40)</td>
+</tr>
+<tr>
+<td>Frequent mental distress (≥ 14 poor mental-health days)</td>
+<td>10.5 / 16.1</td>
+<td>0.61 (0.53–0.70)</td>
+<td>0.51 (0.43–0.62)</td>
+</tr>
+<tr>
+<td>PHQ-8 ≥ 10 (2010–11 module, non-ACE states)</td>
+<td>9.4 / 11.8</td>
+<td>0.78 (0.52–1.16)</td>
+<td>0.32 (0.21–0.49)</td>
+</tr>
+<tr>
+<td>Fair/poor general health</td>
+<td>35.0 / 16.6</td>
+<td>2.70 (2.44–2.99)</td>
+<td>1.18 (1.02–1.36)</td>
+</tr>
+</tbody>
+</table>
+<p>Ratio of adjusted ORs, household mental illness vs comparator, same respondents, stacked model: vs own depression diagnosis 0.59 (0.45–0.78); vs frequent mental distress 0.37 (0.29–0.48); vs physical abuse 0.24 (0.19–0.32); vs incarceration 1.22 (0.89–1.67). Adding own depression diagnosis and frequent mental distress to the household-item model moved its aOR from 0.19 to 0.25. The same item cluster replicated in BRFSS 2009–2012 (mental illness 0.24, drugs 0.23, incarceration 0.18), where Spanish respondents reported <em>more</em> physical abuse (aOR 1.44). Puerto Rico 2024 (Spanish interviews, n ≈ 4,150, descriptive): household mental illness 12.6%, own depression 18.1%, versus mainland Spanish 4.4% and 9.3%; Spanish administration per se does not suppress endorsement to mainland-Spanish levels.</p>
+<p><strong>Differential prediction</strong> (weighted logistic regression of the outcome on predictor × Spanish plus covariates; BRFSS complete-case sample):</p>
+<table>
+<thead>
+<tr>
+<th>Outcome</th>
+<th>Predictor</th>
+<th>OR English (95% CI)</th>
+<th>OR Spanish (95% CI)</th>
+<th>Interaction p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Own depression diagnosis</td>
+<td>ACE score (0–8)</td>
+<td>1.40 (1.36–1.44)</td>
+<td>1.41 (1.30–1.52)</td>
+<td>0.92</td>
+</tr>
+<tr>
+<td>Own depression diagnosis</td>
+<td>Household mental-illness item</td>
+<td>4.63 (3.99–5.36)</td>
+<td>5.93 (3.70–9.51)</td>
+<td>0.33</td>
+</tr>
+<tr>
+<td>Frequent mental distress</td>
+<td>ACE score (0–8)</td>
+<td>1.31 (1.27–1.35)</td>
+<td>1.35 (1.24–1.46)</td>
+<td>0.51</td>
+</tr>
+<tr>
+<td>Frequent mental distress</td>
+<td>Household mental-illness item</td>
+<td>3.20 (2.76–3.70)</td>
+<td>4.14 (2.36–7.28)</td>
+<td>0.38</td>
+</tr>
+</tbody>
+</table>
+<h3>S7.3 CHIS: exploratory odds ratios, mode and differential prediction</h3>
+<p>Source: <code>exploratory/chis/RESULTS.md</code>. Jackknife replicate SEs. Covariates: age, sex, education, poverty level, year; "+ nativity" adds US-born and percent of life in the US. The DIF column conditions on the sum of the other seven non-sexual items.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Sp %</th>
+<th>En %</th>
+<th>aOR</th>
+<th>aOR + nativity (95% CI)</th>
+<th>aOR, foreign-born only</th>
+<th>Logistic DIF OR (rest score + nativity)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Household mental illness</td>
+<td>5.6</td>
+<td>23.8</td>
+<td>0.30</td>
+<td>0.41 (0.34–0.49)</td>
+<td>0.44 (0.35–0.55)</td>
+<td>0.50 (0.40–0.62)</td>
+</tr>
+<tr>
+<td>Household drug use</td>
+<td>4.6</td>
+<td>14.5</td>
+<td>0.28</td>
+<td>0.45 (0.38–0.55)</td>
+<td>0.56 (0.43–0.73)</td>
+<td>0.63 (0.50–0.79)</td>
+</tr>
+<tr>
+<td>Household incarceration</td>
+<td>2.6</td>
+<td>13.1</td>
+<td>0.19</td>
+<td>0.40 (0.30–0.53)</td>
+<td>0.54 (0.35–0.82)</td>
+<td>0.57 (0.41–0.80)</td>
+</tr>
+<tr>
+<td>Household problem drinker</td>
+<td>18.4</td>
+<td>30.1</td>
+<td>0.51</td>
+<td>0.59 (0.54–0.66)</td>
+<td>0.64 (0.56–0.73)</td>
+<td>0.74 (0.65–0.83)</td>
+</tr>
+<tr>
+<td>Parents separated/divorced</td>
+<td>21.0</td>
+<td>30.5</td>
+<td>0.61</td>
+<td>0.71 (0.63–0.80)</td>
+<td>0.78 (0.67–0.91)</td>
+<td>0.80 (0.71–0.91)</td>
+</tr>
+<tr>
+<td>Witnessed parental violence</td>
+<td>20.4</td>
+<td>27.6</td>
+<td>0.61</td>
+<td>0.63 (0.56–0.72)</td>
+<td>0.69 (0.60–0.80)</td>
+<td>0.84 (0.73–0.96)</td>
+</tr>
+<tr>
+<td>Physical abuse</td>
+<td>29.4</td>
+<td>28.5</td>
+<td>1.00</td>
+<td>0.97 (0.88–1.07)</td>
+<td>1.09 (0.96–1.23)</td>
+<td>1.51 (1.33–1.71)</td>
+</tr>
+<tr>
+<td>Verbal abuse</td>
+<td>27.3</td>
+<td>45.8</td>
+<td>0.53</td>
+<td>0.60 (0.54–0.66)</td>
+<td>0.70 (0.62–0.80)</td>
+<td>0.74 (0.66–0.84)</td>
+</tr>
+<tr>
+<td>4+ ACEs</td>
+<td>13.6</td>
+<td>26.1</td>
+<td>0.48</td>
+<td>0.58 (0.51–0.67)</td>
+<td>0.72 (0.61–0.86)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Serious psychological distress (K6, past month)</td>
+<td>4.9</td>
+<td>11.2</td>
+<td>0.48</td>
+<td>0.58 (0.48–0.71)</td>
+<td>0.65 (0.52–0.81)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Fair/poor general health</td>
+<td>35.9</td>
+<td>17.8</td>
+<td>1.38</td>
+<td>1.73 (1.53–1.95)</td>
+<td>1.81 (1.56–2.10)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Spanish-vs-English ORs within mode (adjusted incl. nativity): household mental illness 0.31 phone / 0.44 web (interaction p = .13); drug use 0.29 / 0.48 (.44); incarceration 0.43 / 0.32 (.08); physical abuse 1.08 / 0.95 (.56). Differential prediction of serious psychological distress: OR per ACE 1.37 (English) vs 1.45 (Spanish), p = .29; household mental-illness item 3.29 vs 3.10, p = .75.</p>
+<h3>S7.4 NSCH 2022–2024: Hispanic children in Spanish- versus English-primary-language households</h3>
+<p>Source: <code>exploratory/nsch_chis/RESULTS.md</code>. Census NSCH topical public-use files (current edited releases). Hispanic children (SC_HISPANIC_R = 1) in English- or Spanish-primary-language households (HHLANGUAGE; other/missing excluded, n = 756). Pooled 2022–2024: 16,676 English and 6,919 Spanish households (weighted Spanish share 40.4%). Weighted logistic regression (FWC) with sandwich SEs clustered on state (51 clusters; strata ignored); poverty level multiply imputed (6 implicates, Rubin's rules). M3 (primary): child age group, sex, year, highest adult education, poverty level and household generation. Sensitivity: first- and second-generation households only. Item contrasts: ratio of the M3 ORs for two items with a joint cluster sandwich.</p>
+<p>Language and generation are heavily confounded: 0.4% of English-language vs 14.2% of Spanish-language households were first-generation, 27.9% vs 68.5% second-generation; 78.8% of responding adults in Spanish-language households were born outside the US; 38.9% had less than a high-school education (vs 6.0%).</p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>English HH %</th>
+<th>Spanish HH %</th>
+<th>Crude OR</th>
+<th>aOR M3 (95% CI)</th>
+<th>aOR, 1st/2nd-gen HH only</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ACE8: lived with anyone mentally ill, suicidal, severely depressed</strong></td>
+<td>9.6</td>
+<td>2.9</td>
+<td>0.28 (0.21–0.36)</td>
+<td><strong>0.32 (0.21–0.49)</strong></td>
+<td>0.34 (0.20–0.57)</td>
+</tr>
+<tr>
+<td>ACE9: lived with anyone with alcohol/drug problem</td>
+<td>9.6</td>
+<td>4.5</td>
+<td>0.44 (0.33–0.58)</td>
+<td>0.47 (0.32–0.69)</td>
+<td>0.59 (0.40–0.87)</td>
+</tr>
+<tr>
+<td>ACE6: saw/heard adults hit each other at home</td>
+<td>6.3</td>
+<td>2.7</td>
+<td>0.40 (0.33–0.49)</td>
+<td>0.38 (0.31–0.45)</td>
+<td>0.46 (0.35–0.62)</td>
+</tr>
+<tr>
+<td>ACE5: parent/guardian served time in jail</td>
+<td>7.5</td>
+<td>2.5</td>
+<td>0.32 (0.26–0.38)</td>
+<td>0.33 (0.24–0.43)</td>
+<td>0.36 (0.24–0.54)</td>
+</tr>
+<tr>
+<td>ACE3: parent/guardian divorced/separated</td>
+<td>25.8</td>
+<td>19.7</td>
+<td>0.71 (0.58–0.87)</td>
+<td>0.73 (0.61–0.88)</td>
+<td>0.81 (0.67–0.98)</td>
+</tr>
+<tr>
+<td>ACE4: parent/guardian died</td>
+<td>3.2</td>
+<td>2.4</td>
+<td>0.75 (0.54–1.04)</td>
+<td>0.58 (0.43–0.78)</td>
+<td>0.91 (0.58–1.44)</td>
+</tr>
+<tr>
+<td>ACE7: victim/witness of neighborhood violence</td>
+<td>4.8</td>
+<td>4.3</td>
+<td>0.88 (0.68–1.14)</td>
+<td>0.57 (0.36–0.88)</td>
+<td>0.93 (0.52–1.66)</td>
+</tr>
+<tr>
+<td>ACE10: treated unfairly because of race/ethnicity</td>
+<td>5.4</td>
+<td>3.8</td>
+<td>0.70 (0.57–0.85)</td>
+<td>0.77 (0.62–0.96)</td>
+<td>0.97 (0.72–1.29)</td>
+</tr>
+<tr>
+<td>ACE1: hard to cover basics somewhat/very often</td>
+<td>17.0</td>
+<td>19.3</td>
+<td>1.16 (1.07–1.26)</td>
+<td>0.85 (0.73–0.99)</td>
+<td>1.04 (0.88–1.23)</td>
+</tr>
+<tr>
+<td><strong>Responding adult's own mental health fair/poor</strong></td>
+<td>9.1</td>
+<td>4.1</td>
+<td>0.43 (0.36–0.50)</td>
+<td><strong>0.39 (0.32–0.47)</strong></td>
+<td>0.46 (0.36–0.58)</td>
+</tr>
+<tr>
+<td>Comparator: responding adult's physical health fair/poor</td>
+<td>9.1</td>
+<td>9.8</td>
+<td>1.08 (0.91–1.29)</td>
+<td>0.69 (0.57–0.83)</td>
+<td>0.79 (0.68–0.93)</td>
+</tr>
+<tr>
+<td>Child depression, ever (age 3–17)</td>
+<td>5.8</td>
+<td>4.5</td>
+<td>0.77 (0.52–1.13)</td>
+<td>1.03 (0.78–1.36)</td>
+<td>1.36 (0.93–1.97)</td>
+</tr>
+<tr>
+<td>Child anxiety, current (age 3–17)</td>
+<td>11.0</td>
+<td>5.6</td>
+<td>0.48 (0.39–0.59)</td>
+<td>0.59 (0.48–0.73)</td>
+<td>0.73 (0.60–0.88)</td>
+</tr>
+<tr>
+<td>Comparator: ADHD, ever (age 3–17)</td>
+<td>11.3</td>
+<td>5.9</td>
+<td>0.49 (0.35–0.68)</td>
+<td>0.64 (0.42–0.98)</td>
+<td>0.85 (0.54–1.32)</td>
+</tr>
+<tr>
+<td>Comparator: asthma, ever</td>
+<td>11.0</td>
+<td>9.2</td>
+<td>0.82 (0.76–0.89)</td>
+<td>0.99 (0.84–1.17)</td>
+<td>1.01 (0.86–1.18)</td>
+</tr>
+</tbody>
+</table>
+<p>ACE8 by year (English vs Spanish households, weighted %): 2022 10.1 vs 3.4; 2023 10.0 vs 2.9; 2024 8.5 vs 2.4.</p>
+<p>Item contrasts (M3, ratio of ORs): ACE8 vs ACE9 (alcohol/drugs) 0.68 (0.52–0.89, p = .005); ACE8 vs ACE5 (jail) 0.98 (0.62–1.55); ACE8 vs ACE6 (domestic violence) 0.85 (0.51–1.42); ACE8 vs ACE3 (divorce) 0.44 (0.33–0.58); ACE8 vs mean of all nine other ACE items 0.53 (0.36–0.78, p = .001); parent mental health fair/poor vs parent physical health fair/poor 0.56 (0.47–0.67, p &lt; .001); child current anxiety vs asthma 0.60 (0.50–0.72); child anxiety vs ADHD 0.92 (0.62–1.38).</p>
+<p>Item nonresponse: Spanish-language households skipped every ACE item about 2 percentage points more often than English-language households (ACE8 7.0% vs 5.2%; other ACE items 7.0–7.6% vs 5.0–5.6%; parent mental health 6.6% vs 4.5%), with no mental-health-specific skipping.</p>
+<p>Caveats: household language is a proxy for the language the questionnaire was completed in; NSCH ACEs are parent reports about the child's lifetime and the household item can include the respondent; NSCH has no abuse items; generation is a coarse acculturation adjustment and nearly collinear with language.</p>
+<h2>S8. Literature search summary</h2>
+<p>Full logs with query strings and hit counts: <code>notes/01_novelty_verification_2026-11-01.md</code> and <code>notes/05_novelty_H1_2026-11-02.md</code>. Searches (1–2 November 2026): PubMed (E-utilities, 18 queries), Europe PMC full text including preprints (13 queries), OpenAlex (works, dissertations, preprints), Crossref posted content, Harvard DASH, and general web searches including Spanish- and Portuguese-language terms. SciELO, LILACS/BVS and Redalyc blocked programmatic access and were covered only indirectly; ProQuest was not searched directly.</p>
+<table>
+<thead>
+<tr>
+<th>Novelty component</th>
+<th>Verdict</th>
+<th>Closest prior work</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Item-level language DIF of ACE items in BRFSS</td>
+<td>Not found</td>
+<td>Alhalel 2018 (marginal prevalence by questionnaire language); Mei 2022, Ford 2014 (invariance, language untested); Umoga 2026 (race/ethnicity, embargoed); Zhang &amp; Lippert 2026 (2PL scoring; full text unread)</td>
+</tr>
+<tr>
+<td>Language DIF of ACE items in CHIS</td>
+<td>Not found; no psychometric study of the CHIS ACE items</td>
+<td>Kim 2016 (K6 DIF by language in CHIS)</td>
+</tr>
+<tr>
+<td>Negative DIF concentrated in household mental illness, drug use and incarceration</td>
+<td>Not found as a conditional finding or as a named mechanism</td>
+<td>Same-direction prevalence precursors (Alhalel 2018; Grest 2021); contrary: Jensen 2024 (no raised Hispanic threshold for household mental illness in NSCH), LaBrenz 2019 (withdrawn SSWR abstract; no language difference on household items, unconditional tests), HCHS/SOL high endorsement (Llabre 2017)</td>
+</tr>
+<tr>
+<td>Replication across independent Spanish translations</td>
+<td>Not found</td>
+<td>MacFadyen 2023 (qualitative Spanish cognitive testing of a BRFSS-derived PRAMS item set; no Spanish-specific problems)</td>
+</tr>
+<tr>
+<td>Language DIF persisting after nativity adjustment</td>
+<td>Not found for ACE items</td>
+<td>Cooper &amp; Nickodem 2021 (all-foreign-born; nativity constant); Kobayashi 2024 (language and nativity as covariates only)</td>
+</tr>
+</tbody>
+</table>
+<p>Residual risks to the novelty claim: the embargoed Umoga 2026 dissertation (full text unavailable until April 2027) and Zhang &amp; Lippert 2026 (paywalled; abstract reports IRT scoring without group-specific parameters).</p></main></body></html>

@@ -1,0 +1,1 @@
+S2 CHIS foreign-born only + % life in US: n = 11439 (Spanish 5134), converged = TRUE 

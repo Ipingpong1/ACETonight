@@ -1,0 +1,31 @@
+N 35418 10945.0
+        item      OR   OR_lo   OR_hi  dR2_unif  dR2_nonunif  beta_chg  q_unif   flag
+0   ACEDEPRS  0.2094  0.1502  0.2919    0.0517       0.0000    0.0559  0.0000   True
+1   ACEDRINK  1.0560  0.9933  1.1227    0.0001       0.0010    0.0055  0.0993  False
+2   ACEDRUGS  0.3269  0.2444  0.4373    0.0212       0.0000    0.0455  0.0000   True
+3   ACEPRISN  0.2681  0.1920  0.3744    0.0312       0.0000    0.0660  0.0000   True
+4   ACEDIVRC  0.6656  0.5383  0.8230    0.0093       0.0014    0.0633  0.0002  False
+5   ACEPUNCH  1.4171  1.2484  1.6087    0.0038       0.0020    0.0376  0.0000  False
+6    ACEHURT  1.5011  1.2297  1.8324    0.0071       0.0051    0.0558  0.0001  False
+7   ACESWEAR  0.4175  0.3143  0.5547    0.0240       0.0027    0.0327  0.0000   True
+8   ACETOUCH  1.0617  0.9493  1.1873    0.0001       0.0084    0.0046  0.3411  False
+9   ACETTHEM  1.3368  1.1645  1.5347    0.0017       0.0046    0.0247  0.0001  False
+10  ACEHVSEX  1.9850  1.5559  2.5323    0.0085       0.0045    0.0652  0.0000  False
+purified anchors ['ACEDRINK', 'ACEDIVRC', 'ACEPUNCH', 'ACEHURT', 'ACETOUCH', 'ACETTHEM', 'ACEHVSEX'] ['ACEDEPRS', 'ACEDRINK', 'ACEDRUGS', 'ACEPRISN', 'ACEDIVRC', 'ACEPUNCH', 'ACEHURT', 'ACESWEAR', 'ACETOUCH', 'ACETTHEM', 'ACEHVSEX'] ['ACEDRINK', 'ACEDIVRC', 'ACEPUNCH', 'ACEHURT', 'ACETOUCH', 'ACETTHEM', 'ACEHVSEX']
+  wls_results = wls_model.fit(method=wls_method2)
+  wls_results = wls_model.fit(method=wls_method2)
+  wls_results = wls_model.fit(method=wls_method2)
+  wls_results = wls_model.fit(method=wls_method2)
+  wls_results = wls_model.fit(method=wls_method2)
+  t = np.exp(-z)
+  wls_results = wls_model.fit(method=wls_method2)
+  p = 1 / (1 + np.exp(-X @ b))
+  inter.append(dict(analysis=lab, cov=uc, item=it, ratio_OR_2020_vs_2019=np.exp(b[4]),
+  lo=np.exp(b[4] - 1.96 * np.sqrt(V[4, 4])), hi=np.exp(b[4] + 1.96 * np.sqrt(V[4, 4])),
+  p=2 * stats.norm.sf(abs(b[4] / np.sqrt(V[4, 4])))))
+  wls_results = wls_model.fit(method=wls_method2)
+  wls_results = wls_model.fit(method=wls_method2)
+  wls_results = wls_model.fit(method=wls_method2)
+  wls_results = wls_model.fit(method=wls_method2)
+  wls_results = wls_model.fit(method=wls_method2)
+  wls_results = wls_model.fit(method=wls_method2)

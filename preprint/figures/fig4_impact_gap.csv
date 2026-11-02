@@ -1,0 +1,13 @@
+survey,metric,scenario,spanish_minus_english,ci_lo,ci_hi
+BRFSS,difference in mean 8-item count,Observed,-0.952845847430031,-1.03150985116068,-0.874181843699378
+BRFSS,difference in mean 8-item count,"Model-implied, as estimated",-0.943324328973084,-1.02779588741599,-0.858852770530175
+BRFSS,difference in mean 8-item count,"Model-implied, target DIF removed",-0.798600474883734,-0.896671642299691,-0.700529307467778
+BRFSS,difference in % with >= 4 of 8 items (pp),Observed,-14.8479112959657,-16.4649084007272,-13.2309141912042
+BRFSS,difference in % with >= 4 of 8 items (pp),"Model-implied, as estimated",-14.9794560746618,-16.2012399770292,-13.7576721722943
+BRFSS,difference in % with >= 4 of 8 items (pp),"Model-implied, target DIF removed",-12.2378590266,-13.7175546678523,-10.7581633853478
+CHIS,difference in mean 8-item count,Observed,-0.848101279607189,-0.90573931999507,-0.790463239219309
+CHIS,difference in mean 8-item count,"Model-implied, as estimated",-0.837585479126669,-0.89825624272457,-0.776914715528768
+CHIS,difference in mean 8-item count,"Model-implied, target DIF removed",-0.750904016353147,-0.820974127238442,-0.680833905467851
+CHIS,difference in % with >= 4 of 8 items (pp),Observed,-12.737625941419,-13.9733597954409,-11.5018920873972
+CHIS,difference in % with >= 4 of 8 items (pp),"Model-implied, as estimated",-13.6763313667986,-14.6068635364144,-12.7457991971829
+CHIS,difference in % with >= 4 of 8 items (pp),"Model-implied, target DIF removed",-12.0579528163803,-13.1462148105335,-10.9696908222271

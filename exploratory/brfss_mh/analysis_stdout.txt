@@ -1,0 +1,199 @@
+2009 main Hisp/PR rows 30136 ACE Hisp/PR rows 286
+2010 main Hisp/PR rows 31957 ACE Hisp/PR rows 906
+2011 main Hisp/PR rows 38828 ACE Hisp/PR rows 4273
+2012 main Hisp/PR rows 35929 ACE Hisp/PR rows 1168
+2019 main Hisp/PR rows 37458 ACE Hisp/PR rows 6752
+2020 main Hisp/PR rows 36373 ACE Hisp/PR rows 11783
+2021 main Hisp/PR rows 38431 ACE Hisp/PR rows 4332
+2022 main Hisp/PR rows 42963 ACE Hisp/PR rows 4261
+2023 main Hisp/PR rows 43336 ACE Hisp/PR rows 4802
+2024 main Hisp/PR rows 48672 ACE Hisp/PR rows 8168
+2025 main Hisp/PR rows 35120 ACE Hisp/PR rows 3695
+A: ACE resp 2019-25 dep 11925 27292 0.093 0.193 0.43 0.33
+A: ACE resp 2019-25 fmd 11549 26965 0.105 0.161 0.61 0.51
+A: ACE resp 2019-25 mdays 11549 26965 3.131 5.135 -2.01 -2.49
+A: ACE resp 2019-25 fairpoor 11931 27398 0.35 0.166 2.7 1.18
+A: ACE resp 2019-25 lsat_dis 2795 5757 0.033 0.076 0.43 0.29
+A: ACE resp 2019-25 emo_low 2782 5745 0.125 0.11 1.19 0.63
+A: ACE resp 2019-25 lonely 1726 3822 0.176 0.094 2.04 1.32
+A: ACE resp 2019-25 stress 2355 3834 0.122 0.192 0.61 0.43
+A: ACE resp 2019-25 e_ACEDEPRS 11880 26827 0.044 0.228 0.16 0.2
+A: ACE resp 2019-25 e_ACEDRINK 11876 26958 0.177 0.266 0.59 0.59
+A: ACE resp 2019-25 e_ACEDRUGS 11871 26888 0.034 0.148 0.2 0.2
+A: ACE resp 2019-25 e_SUBST 11853 26885 0.191 0.316 0.51 0.5
+A: ACE resp 2019-25 e_ACEPRISN 11879 26936 0.028 0.145 0.17 0.16
+A: ACE resp 2019-25 e_ACEDIVRC 11725 26785 0.261 0.403 0.52 0.5
+A: ACE resp 2019-25 e_ACEPUNCH 11632 26280 0.175 0.235 0.69 0.61
+A: ACE resp 2019-25 e_ACEHURT 11688 26489 0.313 0.35 0.84 0.8
+A: ACE resp 2019-25 e_ACESWEAR 11693 26479 0.184 0.418 0.32 0.37
+A: ACE resp 2019-25 e_ACETOUCH 11673 26391 0.073 0.142 0.47 0.43
+A: ACE resp 2019-25 e_ACETTHEM 11673 26422 0.064 0.11 0.55 0.49
+A: ACE resp 2019-25 e_ACEHVSEX 11659 26393 0.047 0.07 0.65 0.5
+A: ACE resp 2019-25 e_SEXANY 11622 26292 0.103 0.165 0.58 0.51
+A: ACE resp 2019-25 ace4 10945 24473 0.107 0.255 0.35 0.33
+B: all Hisp 2019-25 dep 81440 163820 0.092 0.201 0.4 0.34
+B: all Hisp 2019-25 fmd 79073 161629 0.095 0.173 0.5 0.43
+B: all Hisp 2019-25 mdays 79073 161629 2.924 5.371 -2.45 -2.83
+B: all Hisp 2019-25 fairpoor 81576 164471 0.348 0.179 2.45 1.23
+B: all Hisp 2019-25 lsat_dis 20713 42209 0.031 0.069 0.43 0.28
+B: all Hisp 2019-25 emo_low 20379 42061 0.143 0.13 1.14 0.61
+B: all Hisp 2019-25 lonely 14567 27601 0.117 0.089 1.37 0.87
+B: all Hisp 2019-25 stress 12157 26218 0.107 0.18 0.55 0.44
+C: ACE resp 2009-12 dep 2447 3754 0.105 0.119 0.87 0.67
+C: ACE resp 2009-12 fmd 2463 4094 0.112 0.122 0.91 0.53
+C: ACE resp 2009-12 mdays 2463 4094 3.601 3.978 -0.38 -1.68
+C: ACE resp 2009-12 e_ACEDEPRS 2144 3895 0.048 0.176 0.24 0.24
+C: ACE resp 2009-12 e_ACEDRINK 2158 3903 0.249 0.288 0.81 0.59
+C: ACE resp 2009-12 e_ACEDRUGS 2157 3905 0.038 0.151 0.22 0.23
+C: ACE resp 2009-12 e_SUBST 2157 3901 0.257 0.35 0.64 0.5
+C: ACE resp 2009-12 e_ACEPRISN 1139 2916 0.037 0.127 0.24 0.18
+C: ACE resp 2009-12 e_ACEDIVRC 2146 3900 0.193 0.328 0.49 0.41
+C: ACE resp 2009-12 e_ACEPUNCH 2138 3843 0.25 0.225 1.15 0.78
+C: ACE resp 2009-12 e_ACEHURT 2146 3880 0.347 0.226 1.81 1.44
+C: ACE resp 2009-12 e_ACESWEAR 2150 3867 0.348 0.406 0.78 0.77
+C: ACE resp 2009-12 e_ACETOUCH 2138 3860 0.076 0.128 0.55 0.57
+C: ACE resp 2009-12 e_ACETTHEM 2144 3864 0.06 0.093 0.62 0.75
+C: ACE resp 2009-12 e_ACEHVSEX 2143 3858 0.034 0.046 0.74 0.61
+C: ACE resp 2009-12 e_SEXANY 2136 3846 0.103 0.154 0.63 0.64
+D1: K6 module resp 2009+2012 (dep: 2012 only) spd 2128 6194 0.064 0.055 1.18 0.59
+D1: K6 module resp 2009+2012 (dep: 2012 only) fmd 2090 6118 0.116 0.14 0.8 0.5
+D1: K6 module resp 2009+2012 (dep: 2012 only) dep 1993 4806 0.178 0.173 1.03 0.59
+D1a: K6 module, ACE resp spd 79 115 0.029 0.012 2.42 1.25
+D2: AD (PHQ-8) module resp 2010+2011 phq10 848 4404 0.094 0.118 0.78 0.32
+D2: AD (PHQ-8) module resp 2010+2011 anx 846 4391 0.074 0.149 0.46 0.33
+D2: AD (PHQ-8) module resp 2010+2011 dep 847 4388 0.139 0.178 0.75 0.56
+D2: AD (PHQ-8) module resp 2010+2011 fmd 837 4347 0.115 0.124 0.92 0.56
+D2a: AD module, ACE resp phq10 36 699 0.043 0.075 0.56 0.2
+D2a: AD module, ACE resp anx 36 699 0.043 0.131 0.3 0.21
+                sample                                                model       est        lo        hi              p
+0  A: ACE resp 2019-25       dep | covariates + insurance + personal doctor  0.371593  0.307343  0.449274   1.594722e-24
+1  A: ACE resp 2019-25       fmd | covariates + insurance + personal doctor  0.530472  0.440062  0.639457   2.925290e-11
+2  B: all Hisp 2019-25       dep | covariates + insurance + personal doctor  0.385580  0.360158  0.412796  3.984756e-165
+3  B: all Hisp 2019-25       fmd | covariates + insurance + personal doctor  0.437451  0.406807  0.470403  2.739192e-110
+4                    A           ACEDEPRS | covariates (same n as next row)  0.190678  0.146790  0.247688   2.117105e-35
+5                    A             ACEDEPRS | covariates + own dep dx + FMD  0.247970  0.192012  0.320238   1.177282e-26
+6                    A  ACEDEPRS | covariates + insurance + personal doctor  0.210107  0.162358  0.271900   1.894075e-32
+{'pair': 'e_ACEDEPRS vs dep', 'n': 38486, 'OR_a': np.float64(0.1940556436366724), 'OR_b': np.float64(0.3281023835666393), 'ratio_a_over_b': np.float64(0.5914484421819469), 'lo': np.float64(0.45104033630847584), 'hi': np.float64(0.7755653576850134), 'p': np.float64(0.00014580557023491172)}
+{'pair': 'e_ACEDEPRS vs fmd', 'n': 37803, 'OR_a': np.float64(0.19311709761987084), 'OR_b': np.float64(0.5216550059461478), 'ratio_a_over_b': np.float64(0.3702007944304228), 'lo': np.float64(0.28522498758085524), 'hi': np.float64(0.4804930639468108), 'p': np.float64(8.080534435793944e-14)}
+{'pair': 'e_ACEDEPRS vs e_SUBST', 'n': 38390, 'OR_a': np.float64(0.19729877389543451), 'OR_b': np.float64(0.5056281216847587), 'ratio_a_over_b': np.float64(0.39020530194806563), 'lo': np.float64(0.30075630411524823), 'hi': np.float64(0.5062576430984329), 'p': np.float64(1.3989265487654982e-12)}
+{'pair': 'e_ACEDEPRS vs e_ACEPRISN', 'n': 38433, 'OR_a': np.float64(0.1962871334875965), 'OR_b': np.float64(0.16129683263573372), 'ratio_a_over_b': np.float64(1.2169311094340178), 'lo': np.float64(0.8866301420309531), 'hi': np.float64(1.6702808250078744), 'p': np.float64(0.22428209116009545)}
+{'pair': 'e_ACEDEPRS vs e_ACEDIVRC', 'n': 38110, 'OR_a': np.float64(0.19380572868873192), 'OR_b': np.float64(0.5064217843248701), 'ratio_a_over_b': np.float64(0.38269627154191566), 'lo': np.float64(0.2919822677810545), 'hi': np.float64(0.5015935980122782), 'p': np.float64(3.4396485549760966e-12)}
+{'pair': 'e_ACEDEPRS vs e_ACEPUNCH', 'n': 37570, 'OR_a': np.float64(0.19562371257187064), 'OR_b': np.float64(0.6100978712014984), 'ratio_a_over_b': np.float64(0.3206431653115236), 'lo': np.float64(0.2406960344215263), 'hi': np.float64(0.42714471681299204), 'p': np.float64(7.642533847330374e-15)}
+{'pair': 'e_ACEDEPRS vs e_ACEHURT', 'n': 37816, 'OR_a': np.float64(0.19354975006009714), 'OR_b': np.float64(0.7913572320821206), 'ratio_a_over_b': np.float64(0.2445794923120285), 'lo': np.float64(0.1888445334361461), 'hi': np.float64(0.31676388493308555), 'p': np.float64(1.3678457357423947e-26)}
+{'pair': 'e_ACEDEPRS vs e_ACESWEAR', 'n': 37812, 'OR_a': np.float64(0.19283616298613016), 'OR_b': np.float64(0.36746250248358453), 'ratio_a_over_b': np.float64(0.5247777982319288), 'lo': np.float64(0.41019442576651366), 'hi': np.float64(0.671368795425578), 'p': np.float64(2.895770962284476e-07)}
+{'pair': 'e_ACEDEPRS vs e_SEXANY', 'n': 37554, 'OR_a': np.float64(0.20074094657371122), 'OR_b': np.float64(0.5101155912541766), 'ratio_a_over_b': np.float64(0.39352050793069665), 'lo': np.float64(0.3081972827670124), 'hi': np.float64(0.5024651378224565), 'p': np.float64(7.460291674977951e-14)}
+{'outcome': 'dep', 'predictor': 'ace8', 'extra': '', 'n_Sp': 10894, 'n_En': 24353, 'events_Sp': 1024, 'OR_En': np.float64(1.4022655969372626), 'OR_En_lo': np.float64(1.3608174191075915), 'OR_En_hi': np.float64(1.4449762155773451), 'OR_Sp': np.float64(1.4082801407358825), 'OR_Sp_lo': np.float64(1.3038376373869054), 'OR_Sp_hi': np.float64(1.521088897821531), 'ratio_Sp_over_En': np.float64(1.004289161633685), 'p_interaction': np.float64(0.9194681251813404), 'main_Spanish_OR_at_x0': np.float64(0.4729047297288247)}
+{'outcome': 'dep', 'predictor': 'ace7_noDEPRS', 'extra': '', 'n_Sp': 10894, 'n_En': 24353, 'events_Sp': 1024, 'OR_En': np.float64(1.4069142312045677), 'OR_En_lo': np.float64(1.3620785766599985), 'OR_En_hi': np.float64(1.4532257447435346), 'OR_Sp': np.float64(1.3922941788081782), 'OR_Sp_lo': np.float64(1.2829996250769244), 'OR_Sp_hi': np.float64(1.5108991791224526), 'ratio_Sp_over_En': np.float64(0.9896084266744021), 'p_interaction': np.float64(0.8164420239345282), 'main_Spanish_OR_at_x0': np.float64(0.45899936635258043)}
+{'outcome': 'dep', 'predictor': 'e_ACEDEPRS', 'extra': '', 'n_Sp': 10894, 'n_En': 24353, 'events_Sp': 1024, 'OR_En': np.float64(4.626260546455162), 'OR_En_lo': np.float64(3.994416651120081), 'OR_En_hi': np.float64(5.358050627414185), 'OR_Sp': np.float64(5.930847082771161), 'OR_Sp_lo': np.float64(3.698372926605054), 'OR_Sp_hi': np.float64(9.510924889747194), 'ratio_Sp_over_En': np.float64(1.2819959064596194), 'p_interaction': np.float64(0.32618025170916587), 'main_Spanish_OR_at_x0': np.float64(0.42307591840698044)}
+{'outcome': 'dep', 'predictor': 'e_ACEDEPRS', 'extra': '+ ace7_noDEPRS', 'n_Sp': 10894, 'n_En': 24353, 'events_Sp': 1024, 'OR_En': np.float64(2.9420114623481086), 'OR_En_lo': np.float64(2.4983998426621192), 'OR_En_hi': np.float64(3.4643900054704764), 'OR_Sp': np.float64(3.9303112136178426), 'OR_Sp_lo': np.float64(2.4480312173176557), 'OR_Sp_hi': np.float64(6.310109988228029), 'ratio_Sp_over_En': np.float64(1.3359265468262118), 'p_interaction': np.float64(0.2493170155175165), 'main_Spanish_OR_at_x0': np.float64(0.4843871114828679)}
+{'outcome': 'fmd', 'predictor': 'ace8', 'extra': '', 'n_Sp': 10588, 'n_En': 24105, 'events_Sp': 1004, 'OR_En': np.float64(1.3089881270024748), 'OR_En_lo': np.float64(1.268807015135673), 'OR_En_hi': np.float64(1.3504417111456692), 'OR_Sp': np.float64(1.346452786272841), 'OR_Sp_lo': np.float64(1.2443451793588611), 'OR_Sp_hi': np.float64(1.4569390678203913), 'ratio_Sp_over_En': np.float64(1.0286210841011665), 'p_interaction': np.float64(0.5131865994868148), 'main_Spanish_OR_at_x0': np.float64(0.6774031750478973)}
+{'outcome': 'fmd', 'predictor': 'ace7_noDEPRS', 'extra': '', 'n_Sp': 10588, 'n_En': 24105, 'events_Sp': 1004, 'OR_En': np.float64(1.3193206507988053), 'OR_En_lo': np.float64(1.274182780631717), 'OR_En_hi': np.float64(1.3660575280739717), 'OR_Sp': np.float64(1.3406917293265008), 'OR_Sp_lo': np.float64(1.2355020067067692), 'OR_Sp_hi': np.float64(1.4548372267525473), 'ratio_Sp_over_En': np.float64(1.016198547725874), 'p_interaction': np.float64(0.7220559677731282), 'main_Spanish_OR_at_x0': np.float64(0.6634388291607495)}
+{'outcome': 'fmd', 'predictor': 'e_ACEDEPRS', 'extra': '', 'n_Sp': 10588, 'n_En': 24105, 'events_Sp': 1004, 'OR_En': np.float64(3.1967596221056613), 'OR_En_lo': np.float64(2.7619952858526684), 'OR_En_hi': np.float64(3.699960001332983), 'OR_Sp': np.float64(4.141867423101278), 'OR_Sp_lo': np.float64(2.3574467550616958), 'OR_Sp_hi': np.float64(7.276968488774484), 'ratio_Sp_over_En': np.float64(1.2956455638579065), 'p_interaction': np.float64(0.3830254848753364), 'main_Spanish_OR_at_x0': np.float64(0.6349160303470932)}
+{'outcome': 'fmd', 'predictor': 'e_ACEDEPRS', 'extra': '+ ace7_noDEPRS', 'n_Sp': 10588, 'n_En': 24105, 'events_Sp': 1004, 'OR_En': np.float64(2.1153236108829843), 'OR_En_lo': np.float64(1.789862682640099), 'OR_En_hi': np.float64(2.499964953824766), 'OR_Sp': np.float64(2.8702329794732804), 'OR_Sp_lo': np.float64(1.5999885721816829), 'OR_Sp_hi': np.float64(5.148935123469489), 'ratio_Sp_over_En': np.float64(1.3568765387510517), 'p_interaction': np.float64(0.3154098698314107), 'main_Spanish_OR_at_x0': np.float64(0.718995950857282)}
+SE check spanish: statsmodels 0.12911425825632028 manual 0.1291142582563203 G 38707 N 38707
+                                      analysis  n_Spanish  n_English  wpct_Spanish  states                              years
+  A: ACE-module respondents 2019-25 (mainland)      11995      27468          35.5      42 2019,2020,2021,2022,2023,2024,2025
+   A, complete 11 ACE items (diff. prediction)      10945      24473          36.3      42 2019,2020,2021,2022,2023,2024,2025
+B: all Hispanic respondents 2019-25 (mainland)      81960     164857          35.3      51 2019,2020,2021,2022,2023,2024,2025
+             C: ACE-module respondents 2009-12       2492       4141          45.7      18                2009,2010,2011,2012
+       D1: K6 module years 2009+2012, K6 valid       2128       6194          38.2      19                          2009,2012
+              D1a: ...of which ACE respondents         79        115          36.7       1                               2012
+    D2: AD module years 2010+2011, PHQ-8 valid        848       4404          21.2      14                          2010,2011
+              D2a: ...of which ACE respondents         36        699           8.9       4                               2010
+                             A: lsat_dis valid       2795       5757           NaN      16                2022,2023,2024,2025
+                              A: emo_low valid       2782       5745           NaN      16                2022,2023,2024,2025
+                               A: lonely valid       1726       3822           NaN      14                     2023,2024,2025
+                               A: stress valid       2355       3834           NaN      13                          2022,2023
+                             B: lsat_dis valid      20713      42209           NaN      45                2022,2023,2024,2025
+                              B: emo_low valid      20379      42061           NaN      45                2022,2023,2024,2025
+                               B: lonely valid      14567      27601           NaN      41                     2023,2024,2025
+                               B: stress valid      12157      26218           NaN      41                          2022,2023
+                                       sample    measure                                         label  n_Sp   n_En  events_Sp  wprev_Sp  wprev_En     crude  crude_lo  crude_hi       adj    adj_lo    adj_hi         adj_p        scale err
+                          A: ACE resp 2019-25        dep                 Own depression dx (ever told) 11925  27292     1173.0  0.092503  0.193261  0.425448  0.370440  0.488625  0.332681  0.276131  0.400811  5.308124e-31           OR    
+                          A: ACE resp 2019-25        fmd       Frequent mental distress (MENTHLTH>=14) 11549  26965     1114.0  0.104807  0.161381  0.608216  0.527471  0.701322  0.513839  0.429305  0.615018  3.850222e-13           OR    
+                          A: ACE resp 2019-25      mdays                      Mean poor-MH days (0-30) 11549  26965        NaN  3.130691  5.135479 -2.005487 -2.361722 -1.649252 -2.494045 -2.952814 -2.035277  1.646600e-26 diff in days    
+                          A: ACE resp 2019-25   fairpoor                      Fair/poor general health 11931  27398     4171.0  0.349569  0.165849  2.702956  2.443174  2.990362  1.181997  1.024540  1.363654  2.188354e-02           OR    
+                          A: ACE resp 2019-25   lsat_dis                        Dissatisfied with life  2795   5757       96.0  0.032869  0.076007  0.433115  0.291186  0.644222  0.289322  0.186285  0.449350  3.365037e-08           OR    
+                          A: ACE resp 2019-25    emo_low                Emotional support rarely/never  2782   5745      295.0  0.124864  0.109556  1.187179  0.927403  1.519719  0.631138  0.451853  0.881559  6.946385e-03           OR    
+                          A: ACE resp 2019-25     lonely                         Lonely always/usually  1726   3822      276.0  0.176124  0.094498  2.037464  1.555127  2.669402  1.320014  0.902407  1.930878  1.524881e-01           OR    
+                          A: ACE resp 2019-25     stress                         Stress always/usually  2355   3834      282.0  0.122088  0.192467  0.607702  0.468943  0.787518  0.429856  0.317171  0.582574  5.226849e-08           OR    
+                          A: ACE resp 2019-25 e_ACEDEPRS ACE: lived w/ depressed/mentally ill/suicidal 11880  26827      514.0  0.044194  0.227899  0.156686  0.128760  0.190669  0.196366  0.152462  0.252913  1.926238e-36           OR    
+                          A: ACE resp 2019-25 e_ACEDRINK                 ACE: lived w/ problem drinker 11876  26958     2134.0  0.176607  0.265970  0.591919  0.531112  0.659688  0.594770  0.518559  0.682181  1.111694e-13           OR    
+                          A: ACE resp 2019-25 e_ACEDRUGS                       ACE: lived w/ drug user 11871  26888      447.0  0.034484  0.148468  0.204846  0.169603  0.247412  0.195535  0.156128  0.244888  7.633537e-46           OR    
+                          A: ACE resp 2019-25    e_SUBST    ACE: household substance use (drink|drugs) 11853  26885     2283.0  0.190604  0.315813  0.510206  0.459237  0.566831  0.504763  0.440778  0.578035  4.797019e-23           OR    
+                          A: ACE resp 2019-25 e_ACEPRISN            ACE: lived w/ someone incarcerated 11879  26936      332.0  0.027833  0.144647  0.169320  0.135886  0.210980  0.161194  0.122797  0.211599  1.751387e-39           OR    
+                          A: ACE resp 2019-25 e_ACEDIVRC               ACE: parents separated/divorced 11725  26785     2911.0  0.261305  0.402573  0.524908  0.477105  0.577500  0.502574  0.442805  0.570409  1.730208e-26           OR    
+                          A: ACE resp 2019-25 e_ACEPUNCH          ACE: witnessed adults hit each other 11632  26280     2063.0  0.175344  0.235012  0.692272  0.621177  0.771505  0.605616  0.523859  0.700133  1.219407e-11           OR    
+                          A: ACE resp 2019-25  e_ACEHURT          ACE: physically hurt by parent/adult 11688  26489     3613.0  0.312796  0.350136  0.844702  0.768425  0.928551  0.795971  0.698456  0.907101  6.210225e-04           OR    
+                          A: ACE resp 2019-25 e_ACESWEAR                        ACE: sworn at/insulted 11693  26479     2137.0  0.184348  0.417654  0.315029  0.282796  0.350937  0.369517  0.322104  0.423910  8.000939e-46           OR    
+                          A: ACE resp 2019-25 e_ACETOUCH                         ACE: touched sexually 11673  26391      905.0  0.072732  0.141851  0.474477  0.407518  0.552437  0.426016  0.344673  0.526556  2.944210e-15           OR    
+                          A: ACE resp 2019-25 e_ACETTHEM                   ACE: made to touch sexually 11673  26422      743.0  0.064082  0.110499  0.551329  0.464530  0.654346  0.491606  0.386892  0.624661  6.235391e-09           OR    
+                          A: ACE resp 2019-25 e_ACEHVSEX                               ACE: forced sex 11659  26393      547.0  0.046808  0.069872  0.653757  0.538856  0.793158  0.496778  0.394875  0.624978  2.329525e-09           OR    
+                          A: ACE resp 2019-25   e_SEXANY                         ACE: any sexual abuse 11622  26292     1182.0  0.102794  0.165243  0.578794  0.502784  0.666296  0.512185  0.421836  0.621885  1.406334e-11           OR    
+                          A: ACE resp 2019-25       ace4                        ACE score (8-cat) >= 4 10945  24473     1118.0  0.107035  0.254625  0.350657  0.306290  0.401451  0.334443  0.278962  0.400960  2.578311e-32           OR    
+                          B: all Hisp 2019-25        dep                 Own depression dx (ever told) 81440 163820     7878.0  0.091667  0.201272  0.400455  0.378792  0.423356  0.344415  0.322215  0.368144 8.007028e-216           OR    
+                          B: all Hisp 2019-25        fmd       Frequent mental distress (MENTHLTH>=14) 79073 161629     7362.0  0.094908  0.172565  0.502793  0.474604  0.532656  0.425416  0.396419  0.456533 1.792492e-124           OR    
+                          B: all Hisp 2019-25      mdays                      Mean poor-MH days (0-30) 79073 161629        NaN  2.923647  5.371053 -2.447748 -2.589880 -2.305616 -2.833445 -3.020822 -2.646068 4.790387e-193 diff in days    
+                          B: all Hisp 2019-25   fairpoor                      Fair/poor general health 81576 164471    28048.0  0.347879  0.179004  2.446683  2.351783  2.545413  1.234406  1.170861  1.301401  5.728832e-15           OR    
+                          B: all Hisp 2019-25   lsat_dis                        Dissatisfied with life 20713  42209      680.0  0.030615  0.069250  0.434242  0.366253  0.514852  0.277920  0.227224  0.339927  1.216633e-35           OR    
+                          B: all Hisp 2019-25    emo_low                Emotional support rarely/never 20379  42061     3086.0  0.143005  0.129528  1.138890  1.033501  1.255025  0.605204  0.524815  0.697907  4.972545e-12           OR    
+                          B: all Hisp 2019-25     lonely                         Lonely always/usually 14567  27601     1891.0  0.117125  0.088776  1.374913  1.219505  1.550125  0.865193  0.726811  1.029921  1.034298e-01           OR    
+                          B: all Hisp 2019-25     stress                         Stress always/usually 12157  26218     1361.0  0.106574  0.179862  0.547712  0.481266  0.623332  0.435952  0.372575  0.510110  3.836165e-25           OR    
+                          C: ACE resp 2009-12        dep                 Own depression dx (ever told)  2447   3754      315.0  0.105085  0.119221  0.870364  0.684108  1.107330  0.672249  0.488342  0.925414  1.487756e-02           OR    
+                          C: ACE resp 2009-12        fmd       Frequent mental distress (MENTHLTH>=14)  2463   4094      288.0  0.112332  0.121935  0.911008  0.712236  1.165254  0.531869  0.375793  0.752768  3.673690e-04           OR    
+                          C: ACE resp 2009-12      mdays                      Mean poor-MH days (0-30)  2463   4094        NaN  3.600601  3.978133 -0.378261 -0.972213  0.215691 -1.676027 -2.526253 -0.825800  1.116874e-04 diff in days    
+                          C: ACE resp 2009-12 e_ACEDEPRS ACE: lived w/ depressed/mentally ill/suicidal  2144   3895       96.0  0.048340  0.176230  0.237388  0.168491  0.334459  0.241967  0.157463  0.371821  9.566292e-11           OR    
+                          C: ACE resp 2009-12 e_ACEDRINK                 ACE: lived w/ problem drinker  2158   3903      535.0  0.248840  0.288356  0.811656  0.668817  0.985003  0.592046  0.451518  0.776310  1.497378e-04           OR    
+                          C: ACE resp 2009-12 e_ACEDRUGS                       ACE: lived w/ drug user  2157   3905       82.0  0.038215  0.150917  0.220659  0.153540  0.317118  0.225553  0.140188  0.362899  8.381023e-10           OR    
+                          C: ACE resp 2009-12    e_SUBST    ACE: household substance use (drink|drugs)  2157   3901      553.0  0.257192  0.349840  0.639286  0.529027  0.772526  0.498030  0.383512  0.646743  1.703460e-07           OR    
+                          C: ACE resp 2009-12 e_ACEPRISN            ACE: lived w/ someone incarcerated  1139   2916       40.0  0.037401  0.126615  0.235316  0.148793  0.372153  0.178235  0.102670  0.309414  8.874428e-10           OR    
+                          C: ACE resp 2009-12 e_ACEDIVRC               ACE: parents separated/divorced  2146   3900      358.0  0.192859  0.328317  0.489594  0.399255  0.600373  0.413759  0.315124  0.543267  2.130972e-10           OR    
+                          C: ACE resp 2009-12 e_ACEPUNCH          ACE: witnessed adults hit each other  2138   3843      529.0  0.250337  0.224748  1.150987  0.947868  1.397634  0.776909  0.599419  1.006954  5.643893e-02           OR    
+                          C: ACE resp 2009-12  e_ACEHURT          ACE: physically hurt by parent/adult  2146   3880      663.0  0.346783  0.226204  1.810322  1.493217  2.194769  1.436264  1.088056  1.895910  1.059626e-02           OR    
+                          C: ACE resp 2009-12 e_ACESWEAR                        ACE: sworn at/insulted  2150   3867      683.0  0.347710  0.406415  0.778477  0.649215  0.933477  0.769240  0.599692  0.986725  3.890397e-02           OR    
+                          C: ACE resp 2009-12 e_ACETOUCH                         ACE: touched sexually  2138   3860      167.0  0.075721  0.128379  0.554211  0.422567  0.726866  0.565291  0.380665  0.839461  4.692623e-03           OR    
+                          C: ACE resp 2009-12 e_ACETTHEM                   ACE: made to touch sexually  2144   3864      131.0  0.059744  0.093105  0.618478  0.452598  0.845154  0.751308  0.498132  1.133161  1.726403e-01           OR    
+                          C: ACE resp 2009-12 e_ACEHVSEX                               ACE: forced sex  2143   3858       93.0  0.034496  0.045522  0.742410  0.519725  1.060507  0.610929  0.378777  0.985368  4.333811e-02           OR    
+                          C: ACE resp 2009-12   e_SEXANY                         ACE: any sexual abuse  2136   3846      234.0  0.103310  0.153583  0.631936  0.495784  0.805477  0.644689  0.454685  0.914092  1.373118e-02           OR    
+D1: K6 module resp 2009+2012 (dep: 2012 only)        spd            K6 >= 13 (serious psych. distress)  2128   6194      115.0  0.064398  0.054935  1.184117  0.767452  1.826996  0.594767  0.297770  1.187993  1.410276e-01           OR    
+D1: K6 module resp 2009+2012 (dep: 2012 only)        fmd       Frequent mental distress (MENTHLTH>=14)  2090   6118      216.0  0.115930  0.140101  0.804811  0.583921  1.109261  0.495338  0.326331  0.751874  9.689377e-04           OR    
+D1: K6 module resp 2009+2012 (dep: 2012 only)        dep                 Own depression dx (ever told)  1993   4806      362.0  0.177547  0.172719  1.033983  0.782099  1.366991  0.593592  0.426006  0.827103  2.059297e-03           OR    
+                     D1a: K6 module, ACE resp        spd            K6 >= 13 (serious psych. distress)    79    115        4.0  0.029182  0.012289  2.415916  0.347727 16.785149  1.249581  0.062409 25.019470  8.841416e-01           OR    
+         D2: AD (PHQ-8) module resp 2010+2011      phq10                                   PHQ-8 >= 10   848   4404       88.0  0.094258  0.118349  0.775257  0.518001  1.160274  0.323896  0.212063  0.494706  1.819440e-07           OR    
+         D2: AD (PHQ-8) module resp 2010+2011        anx               Anxiety disorder dx (ever told)   846   4391       85.0  0.073868  0.148511  0.457238  0.308721  0.677201  0.334015  0.215008  0.518892  1.065923e-06           OR    
+         D2: AD (PHQ-8) module resp 2010+2011        dep                 Own depression dx (ever told)   847   4388      156.0  0.139128  0.178002  0.746387  0.555614  1.002664  0.555926  0.390160  0.792120  1.154019e-03           OR    
+         D2: AD (PHQ-8) module resp 2010+2011        fmd       Frequent mental distress (MENTHLTH>=14)   837   4347       94.0  0.115090  0.123596  0.921580  0.629053  1.350139  0.560890  0.370970  0.848039  6.116381e-03           OR    
+                     D2a: AD module, ACE resp      phq10                                   PHQ-8 >= 10    36    699        5.0  0.043469  0.075151  0.559257  0.175832  1.778790  0.203940  0.051554  0.806749  2.344751e-02           OR    
+                     D2a: AD module, ACE resp        anx               Anxiety disorder dx (ever told)    36    699        2.0  0.042856  0.131100  0.296756  0.059979  1.468245  0.213957  0.025591  1.788794  1.546667e-01           OR    
+                    pair     n     OR_a     OR_b  ratio_a_over_b       lo       hi            p
+       e_ACEDEPRS vs dep 38486 0.194056 0.328102        0.591448 0.451040 0.775565 1.458056e-04
+       e_ACEDEPRS vs fmd 37803 0.193117 0.521655        0.370201 0.285225 0.480493 8.080534e-14
+   e_ACEDEPRS vs e_SUBST 38390 0.197299 0.505628        0.390205 0.300756 0.506258 1.398927e-12
+e_ACEDEPRS vs e_ACEPRISN 38433 0.196287 0.161297        1.216931 0.886630 1.670281 2.242821e-01
+e_ACEDEPRS vs e_ACEDIVRC 38110 0.193806 0.506422        0.382696 0.291982 0.501594 3.439649e-12
+e_ACEDEPRS vs e_ACEPUNCH 37570 0.195624 0.610098        0.320643 0.240696 0.427145 7.642534e-15
+ e_ACEDEPRS vs e_ACEHURT 37816 0.193550 0.791357        0.244579 0.188845 0.316764 1.367846e-26
+e_ACEDEPRS vs e_ACESWEAR 37812 0.192836 0.367463        0.524778 0.410194 0.671369 2.895771e-07
+  e_ACEDEPRS vs e_SEXANY 37554 0.200741 0.510116        0.393521 0.308197 0.502465 7.460292e-14
+        dep vs e_ACEHURT 37954 0.327610 0.790544        0.414410 0.335672 0.511617 2.535077e-16
+outcome    predictor          extra  n_Sp  n_En  events_Sp    OR_En  OR_En_lo  OR_En_hi    OR_Sp  OR_Sp_lo  OR_Sp_hi  ratio_Sp_over_En  p_interaction  main_Spanish_OR_at_x0
+    dep         ace8                10894 24353       1024 1.402266  1.360817  1.444976 1.408280  1.303838  1.521089          1.004289       0.919468               0.472905
+    dep ace7_noDEPRS                10894 24353       1024 1.406914  1.362079  1.453226 1.392294  1.283000  1.510899          0.989608       0.816442               0.458999
+    dep   e_ACEDEPRS                10894 24353       1024 4.626261  3.994417  5.358051 5.930847  3.698373  9.510925          1.281996       0.326180               0.423076
+    dep   e_ACEDEPRS + ace7_noDEPRS 10894 24353       1024 2.942011  2.498400  3.464390 3.930311  2.448031  6.310110          1.335927       0.249317               0.484387
+    fmd         ace8                10588 24105       1004 1.308988  1.268807  1.350442 1.346453  1.244345  1.456939          1.028621       0.513187               0.677403
+    fmd ace7_noDEPRS                10588 24105       1004 1.319321  1.274183  1.366058 1.340692  1.235502  1.454837          1.016199       0.722056               0.663439
+    fmd   e_ACEDEPRS                10588 24105       1004 3.196760  2.761995  3.699960 4.141867  2.357447  7.276968          1.295646       0.383025               0.634916
+    fmd   e_ACEDEPRS + ace7_noDEPRS 10588 24105       1004 2.115324  1.789863  2.499965 2.870233  1.599989  5.148935          1.356877       0.315410               0.718996
+   measure                                         label    n  wprev_PR2024_Spanish
+       dep                 Own depression dx (ever told) 4169              0.181208
+       fmd       Frequent mental distress (MENTHLTH>=14) 4143              0.117583
+     mdays                      Mean poor-MH days (0-30) 4143              3.386184
+e_ACEDEPRS ACE: lived w/ depressed/mentally ill/suicidal 4150              0.126361
+   e_SUBST    ACE: household substance use (drink|drugs) 4154              0.248781
+ e_ACEHURT          ACE: physically hurt by parent/adult 4139              0.189328
+e_ACESWEAR                        ACE: sworn at/insulted 4130              0.146891
+e_ACEPUNCH          ACE: witnessed adults hit each other 4114              0.124998
+e_ACEDIVRC               ACE: parents separated/divorced 4147              0.332422
+  e_SEXANY                         ACE: any sexual abuse 4124              0.088134
+      ace4                        ACE score (8-cat) >= 4 4006              0.099948

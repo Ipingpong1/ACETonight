@@ -1,0 +1,2 @@
+S1 CHIS + nativity, % life in US: n = 29954 (Spanish 5536), converged = TRUE 
+H1b (all three CHIS direct effects < 0 with p < .05 after nativity + % life in US): NOT SUPPORTED 

@@ -1,0 +1,21 @@
+purified anchors ['ACEDRINK', 'ACEDIVRC', 'ACEPUNCH', 'ACEHURT', 'ACETOUCH', 'ACETTHEM', 'ACEHVSEX']
+2019 A0 all other items (unpurified) False 0
+2019 A0 all other items (unpurified) True 0
+2019 A1 purified False 0
+2019 A1 purified True 0
+2019 A3 drink+divorce+3 sexual False 0
+2019 A3 drink+divorce+3 sexual True 0
+2020 A0 all other items (unpurified) False 0
+2020 A0 all other items (unpurified) True 0
+2020 A1 purified False 0
+2020 A1 purified True 0
+2020 A3 drink+divorce+3 sexual False 0
+2020 A3 drink+divorce+3 sexual True 0
+2021-2025 A0 all other items (unpurified) False 0
+2021-2025 A0 all other items (unpurified) True 0
+2021-2025 A1 purified False 0
+2021-2025 A1 purified True 0
+2021-2025 A3 drink+divorce+3 sexual False 0
+2021-2025 A3 drink+divorce+3 sexual True 0
+interaction done
+done

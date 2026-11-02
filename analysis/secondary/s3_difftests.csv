@@ -1,0 +1,43 @@
+survey,comparison,chisq_diff,df_diff,p,method,dCFI,dRMSEA
+BRFSS,configural vs full scalar,257.0271259893,12,4.67656153718492e-48,"
+Scaled and Shifted Chi-Squared Difference Test (method = “satorra.2000”)
+
+lavaan->lavTestLRT():  
+   lavaan NOTE: The “Chisq” column contains standard test statistics, not the robust test that should be reported per model. A robust difference test is a function of two standard (not robust) 
+   statistics.
+",-0.0159656258786554,0.00423258403021785
+BRFSS,configural vs partial scalar (targets free),190.3692509094,6,2.12358996477228e-38,"
+Scaled and Shifted Chi-Squared Difference Test (method = “satorra.2000”)
+
+lavaan->lavTestLRT():  
+   lavaan NOTE: The “Chisq” column contains standard test statistics, not the robust test that should be reported per model. A robust difference test is a function of two standard (not robust) 
+   statistics.
+",-0.0128451929380076,0.00459877162668727
+BRFSS,partial scalar vs full scalar,79.50432708,6,4.52259297927457e-15,"
+Scaled and Shifted Chi-Squared Difference Test (method = “satorra.2000”)
+
+lavaan->lavTestLRT():  
+   lavaan NOTE: The “Chisq” column contains standard test statistics, not the robust test that should be reported per model. A robust difference test is a function of two standard (not robust) 
+   statistics.
+",-0.00312043294064779,-0.000366187596469419
+CHIS,configural vs full scalar,217.8833360993,12,6.51974933952739e-40,"
+Scaled and Shifted Chi-Squared Difference Test (method = “satorra.2000”)
+
+lavaan->lavTestLRT():  
+   lavaan NOTE: The “Chisq” column contains standard test statistics, not the robust test that should be reported per model. A robust difference test is a function of two standard (not robust) 
+   statistics.
+",-0.00813946215593908,0.00131537826285913
+CHIS,configural vs partial scalar (targets free),139.0764817462,6,1.56975630725076e-27,"
+Scaled and Shifted Chi-Squared Difference Test (method = “satorra.2000”)
+
+lavaan->lavTestLRT():  
+   lavaan NOTE: The “Chisq” column contains standard test statistics, not the robust test that should be reported per model. A robust difference test is a function of two standard (not robust) 
+   statistics.
+",-0.00572249641965972,0.00179652385321362
+CHIS,partial scalar vs full scalar,93.5644207207,6,5.50093916271029e-18,"
+Scaled and Shifted Chi-Squared Difference Test (method = “satorra.2000”)
+
+lavaan->lavTestLRT():  
+   lavaan NOTE: The “Chisq” column contains standard test statistics, not the robust test that should be reported per model. A robust difference test is a function of two standard (not robust) 
+   statistics.
+",-0.00241696573627936,-0.000481145590354483

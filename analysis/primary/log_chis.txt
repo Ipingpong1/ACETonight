@@ -1,0 +1,4 @@
+chis: full-sample fit converged = TRUE (14 s) 
+fit indices: chisq.scaled=1594.5677; df.scaled=196; pvalue.scaled=0; cfi.scaled=0.9424; tli.scaled=0.9918; rmsea.scaled=0.0154; cfi.robust=NA; tli.robust=NA; rmsea.robust=NA; srmr=0.0502 
+replicates: 80/80 converged (3.4 min); Jackknife, 80 replicates (rakedw1-80), scale 1, rscales 1, MSE 
+done chis 

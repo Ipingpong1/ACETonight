@@ -1,0 +1,1 @@
+{"H1b_supported":false,"per_item":[{"lhs":"drugs","est":-0.06579,"se":0.090819,"pvalue":0.468815},{"lhs":"jail","est":-0.12757,"se":0.105867,"pvalue":0.228205},{"lhs":"mh","est":-0.23125,"se":0.058928,"pvalue":0.000087}]}

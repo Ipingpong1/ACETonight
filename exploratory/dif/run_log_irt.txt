@@ -1,0 +1,8 @@
+All items invariant (no DIF) -0.653 1.036 True
+A1 purified (7 items) -0.384 1.019 True
+A2 problem drinker only -0.455 1.011 True
+A3 drink+divorce+3 sexual -0.524 1.081 True
+A4 household (non-violent) 5 -0.998 0.978 True
+X1 illustrative: smallest-gap (HURT+PUNCH) -0.226 1.0 True
+X2 illustrative: largest-gap (SWEAR+DEPRS) -1.06 0.994 True
+observed mean11/4+ Sp (np.float64(1.3449247728773936), np.float64(10.70478812757632)) En (np.float64(2.4485090402494842), np.float64(25.477389181011027))

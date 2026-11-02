@@ -1,0 +1,12 @@
+measure,label,n,wprev_PR2024_Spanish
+dep,Own depression dx (ever told),4169,0.1812084192769409
+fmd,Frequent mental distress (MENTHLTH>=14),4143,0.11758306275683057
+mdays,Mean poor-MH days (0-30),4143,3.386184279382152
+e_ACEDEPRS,ACE: lived w/ depressed/mentally ill/suicidal,4150,0.12636135984175087
+e_SUBST,ACE: household substance use (drink|drugs),4154,0.248781175197868
+e_ACEHURT,ACE: physically hurt by parent/adult,4139,0.1893275175110106
+e_ACESWEAR,ACE: sworn at/insulted,4130,0.14689091427062465
+e_ACEPUNCH,ACE: witnessed adults hit each other,4114,0.12499769782053127
+e_ACEDIVRC,ACE: parents separated/divorced,4147,0.33242228981897953
+e_SEXANY,ACE: any sexual abuse,4124,0.08813431152520285
+ace4,ACE score (8-cat) >= 4,4006,0.09994842882187698

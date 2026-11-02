@@ -1,0 +1,6 @@
+BRFSS n = 35418 (Spanish 10945, English 24473); strata (year x file x _STSTR) = 2837, singleton strata = 749; bootstrap strata after collapsing singletons = 2088 (min PSUs/stratum = 2) 
+BRFSS missing-code counts: age 14 (DK/Ref) = 234; EDUCA 9 (Ref) = 177; income 9 (missing) = 6030 
+CHIS n = 29954 (Spanish 5536, English 24418); foreign-born Spanish 5134, foreign-born English 6305; Spanish phone/web 1844/3692; English phone/web 3104/21314 
+CHIS min replicate weight = 0; any zero replicate weights: TRUE 
+BRFSS weighted % (Sp/En): mh 4.0/21.9; drink 16.8/25.3; drugs 3.1/14.2; jail 2.6/14.0; divorce 24.7/39.0; ipv 17.1/23.1; phys 30.4/33.8; verbal 18.1/40.8; ace4 10.8/25.3 
+CHIS weighted % (Sp/En): mh 5.6/23.8; drink 18.4/30.1; drugs 4.6/14.5; jail 2.6/13.1; divorce 21.0/30.5; ipv 20.3/27.6; phys 29.4/28.5; verbal 27.3/45.8; ace4 13.6/26.1 

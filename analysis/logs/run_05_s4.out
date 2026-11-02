@@ -1,0 +1,5 @@
+BRFSS S4c done 
+BRFSS S4a/S4b done; purification freed: verbal, drink, ipv 
+Error in al$es.invariance["R2", "lambda"] : subscript out of bounds
+Calls: fwrite -> data.table
+Execution halted

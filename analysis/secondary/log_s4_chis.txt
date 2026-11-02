@@ -1,0 +1,5 @@
+CHIS S4c done 
+CHIS S4a/S4b done; purification freed: phys 
+CHIS S4d alignment HD: Spanish mean -0.498; nu diffs mh -0.648; drink 0.004; drugs 0.02; jail -0.177; divorce -0.111 
+CHIS S4d alignment AB: Spanish mean -0.409; nu diffs ipv 0; phys 0.523; verbal -0.429 
+part saved: chis 

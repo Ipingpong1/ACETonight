@@ -1,0 +1,17 @@
+analysis,n_Spanish,n_English,wpct_Spanish,states,years
+A: ACE-module respondents 2019-25 (mainland),11995,27468,35.5,42,"2019,2020,2021,2022,2023,2024,2025"
+"A, complete 11 ACE items (diff. prediction)",10945,24473,36.3,42,"2019,2020,2021,2022,2023,2024,2025"
+B: all Hispanic respondents 2019-25 (mainland),81960,164857,35.3,51,"2019,2020,2021,2022,2023,2024,2025"
+C: ACE-module respondents 2009-12,2492,4141,45.7,18,"2009,2010,2011,2012"
+"D1: K6 module years 2009+2012, K6 valid",2128,6194,38.2,19,"2009,2012"
+D1a: ...of which ACE respondents,79,115,36.7,1,2012
+"D2: AD module years 2010+2011, PHQ-8 valid",848,4404,21.2,14,"2010,2011"
+D2a: ...of which ACE respondents,36,699,8.9,4,2010
+A: lsat_dis valid,2795,5757,,16,"2022,2023,2024,2025"
+A: emo_low valid,2782,5745,,16,"2022,2023,2024,2025"
+A: lonely valid,1726,3822,,14,"2023,2024,2025"
+A: stress valid,2355,3834,,13,"2022,2023"
+B: lsat_dis valid,20713,42209,,45,"2022,2023,2024,2025"
+B: emo_low valid,20379,42061,,45,"2022,2023,2024,2025"
+B: lonely valid,14567,27601,,41,"2023,2024,2025"
+B: stress valid,12157,26218,,41,"2022,2023"

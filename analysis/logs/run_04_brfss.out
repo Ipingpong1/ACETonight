@@ -1,0 +1,12 @@
+brfss: full-sample fit converged = TRUE (23 s) 
+fit indices: chisq.scaled=1124.0235; df.scaled=226; pvalue.scaled=0; cfi.scaled=0.9464; tli.scaled=0.9934; rmsea.scaled=0.0106; cfi.robust=NA; tli.robust=NA; rmsea.robust=NA; srmr=0.0504 
+replicates: 100/100 converged (3 min); Rao-Wu rescaled bootstrap (subbootstrap), 100 replicates, MSE 
+Key: <lhs>
+      lhs    est se_rep se_lavaan        p OR_eq pdiff_pp
+   <char>  <num>  <num>     <num>    <num> <num>    <num>
+1:     AB -0.408  0.049     0.047 6.96e-17    NA       NA
+2:     HD -0.537  0.061     0.056 7.98e-19    NA       NA
+3:  drugs -0.696  0.118     0.110 3.23e-09  0.31    -3.06
+4:   jail -0.655  0.088     0.095 7.33e-14  0.33    -5.18
+5:     mh -0.624  0.114     0.100 4.35e-08  0.35    -6.05
+done brfss 

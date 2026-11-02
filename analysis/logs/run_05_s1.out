@@ -1,0 +1,10 @@
+S1 CHIS + nativity, % life in US: n = 29954 (Spanish 5536), converged = TRUE 
+Key: <lhs>
+      lhs    est    se se_lavaan        p OR_eq
+   <char>  <num> <num>     <num>    <num> <num>
+1:     AB -0.234 0.030     0.042 9.88e-15  0.67
+2:     HD -0.441 0.041     0.059 2.19e-26  0.47
+3:  drugs -0.066 0.091     0.123 4.69e-01  0.89
+4:   jail -0.128 0.106     0.135 2.28e-01  0.81
+5:     mh -0.231 0.059     0.080 8.70e-05  0.67
+H1b (all three CHIS direct effects < 0 with p < .05 after nativity + % life in US): NOT SUPPORTED 

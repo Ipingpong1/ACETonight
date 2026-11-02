@@ -1,0 +1,4 @@
+brfss S3 df configural/scalar/partial = 38/50/44 (expected 38/50/44) 
+brfss S3 done 
+chis S3 df configural/scalar/partial = 38/50/44 (expected 38/50/44) 
+chis S3 done 

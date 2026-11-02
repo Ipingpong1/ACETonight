@@ -1,0 +1,8 @@
+HD =~ mh + drink + drugs + jail + divorce
+AB =~ ipv + phys + verbal
+HD ~ sp + age2 + age3 + age4 + age5 + age6 + age7 + age8 + age9 + age10 + age11 + age12 + age13 + age14 + edu1 + edu2 + edu3 + edu5 + edu6 + edu9 + fem2 + inc1 + inc2 + inc3 + inc4 + inc9 + y2020 + y2021 + y2022 + y2023 + y2024 + y2025 + reg1 + reg2 + reg4
+AB ~ sp + age2 + age3 + age4 + age5 + age6 + age7 + age8 + age9 + age10 + age11 + age12 + age13 + age14 + edu1 + edu2 + edu3 + edu5 + edu6 + edu9 + fem2 + inc1 + inc2 + inc3 + inc4 + inc9 + y2020 + y2021 + y2022 + y2023 + y2024 + y2025 + reg1 + reg2 + reg4
+mh ~ d1_mh*sp
+drugs ~ d1_drugs*sp
+jail ~ d1_jail*sp
+HD ~~ AB

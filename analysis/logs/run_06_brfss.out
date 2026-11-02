@@ -1,0 +1,24 @@
+                quantity estimate se_rep
+                  <char>    <num>  <num>
+ 1:        mean_Sp_model    1.185  0.034
+ 2:        mean_Sp_noDIF    1.330  0.043
+ 3:        mean_En_model    2.129  0.032
+ 4:          p4_Sp_model    8.574  0.430
+ 5:          p4_Sp_noDIF   11.315  0.612
+ 6:          p4_En_model   23.553  0.534
+ 7:          mean_Sp_obs    1.168  0.029
+ 8:          mean_En_obs    2.120  0.028
+ 9:            p4_Sp_obs    8.971  0.566
+10:            p4_En_obs   23.819  0.589
+11:         gap_mean_obs   -0.953  0.040
+12:       gap_mean_model   -0.943  0.043
+13:       gap_mean_noDIF   -0.799  0.050
+14:      change_gap_mean    0.145  0.018
+15: pct_gap_mean_due_DIF   15.342  2.182
+16:           gap_p4_obs  -14.848  0.825
+17:         gap_p4_model  -14.979  0.623
+18:         gap_p4_noDIF  -12.238  0.755
+19:        change_gap_p4    2.742  0.344
+20:   pct_gap_p4_due_DIF   18.302  2.516
+                quantity estimate se_rep
+                  <char>    <num>  <num>
