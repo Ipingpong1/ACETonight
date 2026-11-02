@@ -1,8 +1,8 @@
 # Does interview language change how Hispanic adults report childhood household adversity? Differential item functioning of adverse childhood experience items by Spanish versus English interview in two US surveys
 
-**[Author name]**<sup>1</sup>
+**Isabella Ciocca**<sup>1</sup>, **Matias Ortiz**<sup>2</sup>
 
-<sup>1</sup> New York University, New York, NY. Correspondence: mo2273@nyu.edu
+<sup>1</sup> Icahn School of Medicine at Mount Sinai, New York, NY.<br><sup>2</sup> Courant Institute of Mathematical Sciences, New York University, New York, NY.<br>Correspondence: mo2273@nyu.edu
 
 *Preprint, version 0.1, 2 November 2026. Not peer reviewed. Working draft circulated for comment; see Declarations for the repository and timestamp.*
 

@@ -66,4 +66,4 @@ python preprint/build.py      # writes preprint.html/.pdf and supplement.html/.p
 
 ## Citation
 
-[Author name]. Does interview language change how Hispanic adults report childhood household adversity? Differential item functioning of adverse childhood experience items by Spanish versus English interview in two US surveys. Working draft v0.1, 2 November 2026. https://github.com/Ipingpong1/ace-language-dif
+Ciocca I, Ortiz M. Does interview language change how Hispanic adults report childhood household adversity? Differential item functioning of adverse childhood experience items by Spanish versus English interview in two US surveys. Working draft v0.1, 2 November 2026. https://github.com/Ipingpong1/ace-language-dif
