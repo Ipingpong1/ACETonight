@@ -60,7 +60,6 @@ python preprint/build.py      # writes preprint.html/.pdf and supplement.html/.p
 
 - Author list, affiliations, ORCID and contributions in `preprint/preprint.md`.
 - OSF registration of `prereg/H1_analysis_plan.md` (under embargo; disclose the 1 November exploratory work).
-- NYU HRPP "not human subjects research" determination.
 - Licence (suggested: CC BY 4.0 for the manuscript, MIT for code).
 - See `REVIEW.md` §7 for the full pre-posting checklist.
 

@@ -156,7 +156,6 @@ The 46 references were assembled with automated help and checked against Crossre
 - [ ] Verify the Spanish wording of the mental-illness item in the CDC module PDF and in the CHIS Spanish questionnaire, and quote both in Methods.
 - [ ] Ask UCLA CHPR how AQ1–AQ8 item nonresponse was imputed and whether language entered the model.
 - [ ] Spot-check five references by hand; read Zhang & Lippert 2026 through NYU Libraries; email Umoga's advisor about any language analysis.
-- [ ] Request the NYU HRPP "not human subjects research" determination (ask.humansubjects@nyu.edu) and cite its date.
 - [ ] Decide a licence (CC BY 4.0 for text; MIT for code is conventional) and add `LICENSE`.
 - [ ] Optional but valuable: hold out NSCH 2025 (already released) or CHIS 2026 as a genuinely confirmatory test of the locked specification.
 
