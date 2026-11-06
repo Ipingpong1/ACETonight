@@ -138,7 +138,7 @@ H1 came from exploratory analyses of the same data on 1 November 2026: item-leve
 
 ### 2.6 Software, ethics and reporting
 
-Analyses used R 4.5.3 (lavaan 0.7.2; survey 4.5, Lumley 2004; sirt 4.2) and Python 3 (pandas, statsmodels, matplotlib). Code and all model outputs are in the repository (Declarations). Both datasets are public and de-identified; a written determination from the NYU Human Research Protection Program is being requested. Data were analysed in November 2026. Reporting follows STROBE (von Elm et al. 2007).
+Analyses used R 4.5.3 (lavaan 0.7.2; survey 4.5, Lumley 2004; sirt 4.2) and Python 3 (pandas, statsmodels, matplotlib). Code and all model outputs are in the repository (Declarations). Both datasets are public and de-identified. Data were analysed in November 2026. Reporting follows STROBE (von Elm et al. 2007).
 
 ## 3. Results
 
@@ -304,7 +304,7 @@ Among the ACE items, household mental illness is the one with consistent evidenc
 
 **Pre-specification.** `prereg/H1_analysis_plan.md`, frozen 2026-11-02T06:38:47Z, SHA-256 `031cd72089936e1d4f332bbdbab7071fa6100b346b778cda34480571b3d420fa`. Deviations: `analysis/DEVIATIONS.md`.
 
-**Ethics.** Analyses used de-identified public-use data. Under NYU's human-subjects decision tree this is not human-subjects research; a written determination has been requested. **Funding.** None. **Conflicts of interest.** None declared. **Author contributions.** [To complete.]
+**Ethics.** Analyses used de-identified public-use data. **Funding.** None. **Conflicts of interest.** None declared. **Author contributions.** [To complete.]
 
 ## References
 
